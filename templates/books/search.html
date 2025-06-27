@@ -1,0 +1,94 @@
+{% extends "base.html" %} 
+{% block title %} List {% endblock %}
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero">
+
+            <h2> Search Book </h2> 
+            <div class="search">
+              <form action="{% url "books:search" %}" method="GET">
+                <!-- Form Row 1 -->
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Title</label>
+                    <input
+                      type="text"
+                      name="title"
+                      class="form-control"
+                      placeholder="Title"
+                      value = "{{values.title}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Author</label>
+                    <input
+                      type="text"
+                      name="author"
+                      class="form-control"
+                      placeholder="Author"
+                      value = "{{values.author}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">ISBN</label>
+                    <input
+                      type="text"
+                      name="isbn"
+                      class="form-control"
+                      placeholder="ISBN"
+                      value = "{{values.isbn}}"
+                    />
+                  </div>
+
+                </div>
+                <!-- Form Row 2 -->
+                <div class="form-row">
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Category</label>
+                    <select name="category" class="form-control">
+                      <option {% if not values.category %} selected="true" {% endif %} value="">
+                        (Any Category)
+                      </option>
+                      {%  for key, value in category_choices.items %}
+                      <option value="{{key}}" {% if key == values.category %} selected="true" {% endif %}>{{value}}</option>
+                      {% endfor %}
+
+                    </select>
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Language</label>
+                    <select name="language" class="form-control">
+                      <option {% if not values.language %} selected="true" {% endif %} value="">
+                        (Any Language)
+                      </option>
+                      {%  for key, value in language_choices.items %}
+                      <option value="{{key}}" {%if key == values.language %} selected="true" {% endif %}>{{value}}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Year</label>
+                    <input
+                      type="text"
+                      name="year"
+                      class="form-control"
+                      placeholder="Year"
+                      value = "{{values.year}}"
+                    />
+                  </div>
+
+                </div>
+                <button class="btn btn-secondary btn-block mt-4" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>   
+</section> 
+
+{% endblock content  %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %} 
+{% block title %} Home {% endblock %}
+{% block content %}
+{% load static %} 
+{% load humanize %}
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover Your Next Adventure</h2>
+        <p>Explore our vast collection of books, digital resources, and cultural programs</p>
+        
+        <div class="hero-search-container">
+            <h3>Find Your Next Great Read</h3>
+            <form action="{% url 'books:search' %}" method="get">
+            <div class="hero-search">
+                <input type="text" name="q" placeholder="Search by title, author, or keyword...">
+                <button><i class="fas fa-search"></i> Search</button>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Book Showcase -->
+    {% if listings %}
+    <section class="book-showcase">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="books">
+            {% for listing in listings %}
+            <div class="book" data-url={% url 'books:about' listing.id %} onclick="window.location.href=this.getAttribute('data-url')">
+                {% if listing.cover_url %}
+                <div class="book-cover" style="background-image: url('{{ listing.cover_url.url }}');"></div>
+                {% else %}
+                <div class="book-cover" style="background-image: url('{% static "img/book.jpeg" %}');"></div>
+                {% endif %}
+                <div class="book-info">
+                    <div class="book-title">{{ listing.title | title }}</div>
+                    <div class="book-author">{{ listing.author | title }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Events Section -->
+    {% if events %}
+    <section class="events">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="events-container">
+            {% for event in events %}
+            <div class="event-card">
+                <div class="event-date">
+                    <div class="event-day">{{ event.event_date|date:"d" }}</div>
+                    <div class="event-month">{{ event.event_date|date:"F" }}</div>
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">{{ event.title }}</h3>
+                    <div class="event-time">
+                        <i class="fas fa-clock"></i>
+                        <span>{{ event.start_time | time:"g:i A" }} - {{ event.end_time | time:"g:i A" }}</span>
+                    </div>
+                    <p class="event-desc">{{ event.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+{% endblock content  %}

@@ -1,0 +1,32 @@
+@startuml StaffAdminFlow
+title Staff Admin Navigation Flow
+
+:Login (accounts:login);
+repeat
+  :Dashboard (accounts:dashboard);
+  
+  if (Action?) then (Manage Books)
+    :Add Book (books:edit);
+    :Book Listing (books:listing);
+    if (Delete?) then (yes)
+      :Delete Book (books:delete);
+    else (no)
+    endif
+  elseif (Manage Users)
+    :User Search (accounts:search);
+    :User Listing (accounts:listing);
+    if (Delete?) then (yes)
+      :Delete User (accounts:delete);
+    else (no)
+    endif
+  elseif (Manage Events)
+    :Add Event (events:edit);
+  elseif (View Records)
+    :Borrow Records (records:listing);
+  endif
+  
+repeat while (Continue?) is (yes)
+->no;
+:Logout (accounts:logout);
+stop
+@enduml

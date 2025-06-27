@@ -1,0 +1,26 @@
+@startuml MemberUserFlow
+title Member User Navigation Flow
+
+:Login (accounts:login);
+repeat
+  :Dashboard (accounts:dashboard);
+  
+  if (Action?) then (Search Books)
+    :Search Books (books:search);
+    :View Book (books:about);
+    if (Borrow?) then (yes)
+      :Borrow Book (books:borrow);
+    else (no)
+    endif
+  elseif (Return Books)
+    :View Borrowed Books;
+    :Return Book (books:check_in);
+  elseif (View Events)
+    :View Events (homepage);
+  endif
+  
+repeat while (Continue using?) is (yes)
+->no;
+:Logout (accounts:logout);
+stop
+@enduml

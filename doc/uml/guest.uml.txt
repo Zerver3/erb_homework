@@ -1,0 +1,22 @@
+@startuml GuestUserFlow
+title Guest User Navigation Flow
+
+start
+:Visit Homepage (pages:index);
+if (Interested in books?) then (yes)
+  :Search Books (books:search);
+  :View Book Details (books:about);
+else (no)
+  :Read About Us (pages:about);
+endif
+
+if (Wants to join?) then (yes)
+  :Register (accounts:register);
+  :Login (accounts:login);
+else (no)
+  stop
+endif
+
+:Access Dashboard (accounts:dashboard);
+stop
+@enduml

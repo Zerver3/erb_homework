@@ -1,0 +1,109 @@
+@startuml LibraryManagementSystem
+
+' Enable skinparam for better styling
+skinparam class {
+    BackgroundColor White
+    ArrowColor #0078D7
+    BorderColor #333333
+}
+
+' Define packages (Django apps)
+package "accounts" {
+    class User {
+        +username: str
+        +first_name: str
+        +last_name: str
+        +email: str
+        +password: str
+        +is_staff: bool
+    }
+}
+
+package "books" {
+    class Book {
+        +title: str
+        +author: str
+        +isbn: str
+        +year: int
+        +total: int
+        +stock: int
+        +date_arrived: Date
+        +description: Text
+        +language: str
+        +category: str
+        +cover_url: Image
+    }
+}
+
+package "records" {
+    class BorrowRecord {
+        +due_date: Date
+        +return_date: Date
+        +late_fee: Decimal
+        +status: str
+        +comment: Text
+    }
+}
+
+package "events" {
+    class Event {
+        +title: str
+        +event_date: Date
+        +start_time: Time
+        +end_time: Time
+        +description: Text
+    }
+}
+
+' Define enumerations
+enum language_choices {
+    en = "English"
+    es = "Spanish"
+    fr = "French"
+    de = "German"
+    ja = "Japanese"
+    ko = "Korean"
+    zh = "Chinese"
+    zh-CN = "Chinese (Simplified)"
+    zh-TW = "Chinese (Traditional)"
+    "" = "Other"
+}
+
+enum category_choices {
+    art = "Art"
+    biography = "Biography"
+    computers = "Computers"
+    cooking = "Cooking"
+    economics = "Economics"
+    education = "Education"
+    fantasy = "Fantasy"
+    fiction = "Fiction"
+    health = "Health"
+    history = "History"
+    mystery = "Mystery"
+    nonfiction = "Nonfiction"
+    psychology = "Psychology"
+    religion = "Religion"
+    romance = "Romance"
+    science = "Science"
+    sports = "Sports"
+    travel = "Travel"
+}
+
+enum status_choices {
+    borrowed = "Borrowed"
+    overdue = "Overdue"
+    returned = "Returned"
+}
+
+' Define relationships
+User "1" -- "n" BorrowRecord : "borrows"
+Book "1" -- "n" BorrowRecord : "borrowed in"
+
+' Define choices usage
+Book "uses" --> language_choices : language
+Book "uses" --> category_choices : category
+BorrowRecord "uses" --> status_choices : status
+
+
+@enduml

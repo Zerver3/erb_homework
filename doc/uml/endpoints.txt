@@ -1,0 +1,31 @@
+accounts/
+├── login/                - User login
+├── logout/               - User logout  
+├── register/             - User registration
+├── dashboard/            - User dashboard
+├── delete/<int:user_id>  - Delete user (admin)
+├── edit/                 - Edit account
+├── listing/              - List all users (admin)
+└── search/               - Search users (admin)
+
+books/
+├── search/               - Book search
+├── search_adv/           - Advanced search
+├── listing/              - List all books  
+├── edit/                 - Add book (admin)
+├── add/                  - Add book (POST)
+├── about/<int:book_id>   - Book details
+├── delete/<int:book_id>  - Delete book (admin)
+├── borrow/<int:book_id>  - Borrow book
+└── check_in/<int:book_id> - Return book
+
+events/
+├── add/                  - Add event
+└── edit/                 - Add/edit event form
+
+pages/
+├── /                     - Homepage
+└── about/                - About page
+
+records/
+└── listing/              - Borrow records (admin)

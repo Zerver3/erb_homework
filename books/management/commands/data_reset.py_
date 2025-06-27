@@ -1,0 +1,162 @@
+# app/management/commands/data_reset.py
+import os
+import csv
+from django.core.management.base import BaseCommand
+from django.db import transaction
+from django.apps import apps
+from django.conf import settings
+
+class Command(BaseCommand):
+    help = 'Export data to CSV, clear database, and import data from CSV'
+
+    def add_arguments(self, parser):
+        parser.add_argument(
+            '--export-dir',
+            type=str,
+            default=os.path.join(settings.BASE_DIR, 'data_backup'),
+            help='Directory for CSV files (default: data_backup/)'
+        )
+        parser.add_argument(
+            '--models',
+            nargs='+',
+            metavar='app_label.ModelName',
+            help='Specify models to process (space separated)'
+        )
+
+    def handle(self, *args, **options):
+        export_dir = options['export_dir']
+        os.makedirs(export_dir, exist_ok=True)
+        
+        # Get models to process (specified or all models)
+        if options['models']:
+            models = []
+            for model_name in options['models']:
+                try:
+                    app_label, model_name = model_name.split('.')
+                    models.append(apps.get_model(app_label, model_name))
+                except (ValueError, LookupError) as e:
+                    self.stderr.write(f"Error loading model '{model_name}': {e}")
+                    return
+        else:
+            models = apps.get_models()
+
+        # Determine processing order (parents first for import)
+        model_order = self.get_model_order(models)
+
+        try:
+            # Export data
+            self.stdout.write("\n=== Exporting data to CSV ===")
+            exported = self.export_data(model_order, export_dir)
+            
+            # Clear database
+            self.stdout.write("\n=== Clearing database ===")
+            self.clear_database(reversed(model_order))  # Reverse for deletion
+            
+            # Import data
+            self.stdout.write("\n=== Importing data from CSV ===")
+            self.import_data(model_order, export_dir)
+            
+            self.stdout.write(self.style.SUCCESS(
+                f"\nSuccess! Exported {exported} models, cleared database, and imported data."
+            ))
+        except Exception as e:
+            self.stderr.write(self.style.ERROR(f"Operation failed: {e}"))
+
+    def get_model_order(self, models):
+        """Order models with independent models first (no foreign keys)"""
+        independent = []
+        dependent = []
+        
+        for model in models:
+            has_fk = any(
+                field.is_relation and field.many_to_one
+                for field in model._meta.fields
+            )
+            dependent.append(model) if has_fk else independent.append(model)
+        
+        return independent + dependent
+
+    def export_data(self, models, export_dir):
+        """Export models to CSV files"""
+        exported_count = 0
+        
+        for model in models:
+            model_name = model._meta.model_name
+            filename = os.path.join(export_dir, f"{model_name}.csv")
+            
+            with open(filename, 'w', newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                
+                # Write headers (database field names)
+                field_names = [field.name for field in model._meta.fields]
+                writer.writerow(field_names)
+                
+                # Write data rows
+                for obj in model.objects.all():
+                    row = []
+                    for field in model._meta.fields:
+                        value = getattr(obj, field.name)
+                        
+                        # Handle foreign keys (store PK)
+                        if field.is_relation and field.many_to_one:
+                            row.append(value.pk if value else None)
+                        else:
+                            row.append(value)
+                    writer.writerow(row)
+            
+            self.stdout.write(f"Exported {model_name} to {filename}")
+            exported_count += 1
+        
+        return exported_count
+
+    def clear_database(self, models):
+        """Delete all database records safely"""
+        with transaction.atomic():
+            for model in models:
+                model_name = model._meta.model_name
+                count, _ = model.objects.all().delete()
+                self.stdout.write(f"Deleted {count} {model_name} records")
+
+    def import_data(self, models, import_dir):
+        """Import models from CSV files"""
+        for model in models:
+            model_name = model._meta.model_name
+            filename = os.path.join(import_dir, f"{model_name}.csv")
+            
+            if not os.path.exists(filename):
+                self.stdout.write(f"Skipping {model_name} - no CSV file found")
+                continue
+                
+            with open(filename, 'r') as csvfile:
+                reader = csv.DictReader(csvfile)
+                objs = []
+                
+                for row in reader:
+                    # Convert data types and handle FKs
+                    obj_data = {}
+                    for field in model._meta.fields:
+                        value = row[field.name]
+                        
+                        if value == '':
+                            obj_data[field.name] = None
+                            continue
+                            
+                        # Handle foreign keys
+                        if field.is_relation and field.many_to_one:
+                            related_model = field.related_model
+                            try:
+                                obj_data[field.name] = related_model.objects.get(pk=value)
+                            except related_model.DoesNotExist:
+                                self.stderr.write(
+                                    f"Foreign key missing for {model_name}.{field.name}: {value}"
+                                )
+                                obj_data[field.name] = None
+                        # Handle other field types
+                        else:
+                            obj_data[field.name] = field.to_python(value)
+                    
+                    objs.append(model(**obj_data))
+                
+                # Bulk create objects
+                model.objects.bulk_create(objs)
+                self.stdout.write(f"Imported {len(objs)} {model_name} records")

@@ -1,0 +1,2378 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add book",
+    "content_type": 7,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change book",
+    "content_type": 7,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete book",
+    "content_type": 7,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view book",
+    "content_type": 7,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add borrow record",
+    "content_type": 8,
+    "codename": "add_borrowrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change borrow record",
+    "content_type": 8,
+    "codename": "change_borrowrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete borrow record",
+    "content_type": 8,
+    "codename": "delete_borrowrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view borrow record",
+    "content_type": 8,
+    "codename": "view_borrowrecord"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add event",
+    "content_type": 9,
+    "codename": "add_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change event",
+    "content_type": 9,
+    "codename": "change_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete event",
+    "content_type": 9,
+    "codename": "delete_event"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view event",
+    "content_type": 9,
+    "codename": "view_event"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$bdKFJ5lw3dVr7o8ioho4mZ$LGfAU7gpPkfOGE2YlRrud+K0xUzBM58vEcg2xFzveoQ=",
+    "last_login": "2025-06-27T08:52:19.789Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@only.hk",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-27T04:44:54.730Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$eNH5Y1HzdUejfu2W3sKBUQ$AajB9ZapvWNTYWFGWomm5R0f2HwP6r1wEcdIInCRkow=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Peter",
+    "first_name": "Peter",
+    "last_name": "Li",
+    "email": "peter@only.hk",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-27T08:51:00.932Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Riu9gRbgIZPMnlsdwgS1cc$YkXInaITHNs5XSdt6JtTwExcgmRPwDXgLr5LmQs5Y+I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Paul",
+    "first_name": "Paul",
+    "last_name": "Chan",
+    "email": "paul@only.hk",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-27T08:51:32.956Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$yxz5clGcH3zDOPzpC8oD26$pC/mv51f9Mtmf7gZfAK+NcpqzgAiNF6YCVYkvmh7aJ8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Mary",
+    "first_name": "Mary",
+    "last_name": "Cheung",
+    "email": "mary@only.hk",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-27T08:52:07.490Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "books",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "records",
+    "model": "borrowrecord"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "events",
+    "model": "event"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "title": "Translation and Academic Journals",
+    "author": "Yifeng Sun",
+    "isbn": "9781137522092",
+    "year": 2015,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This volume comes at a time of rapid expansion in the discipline of Translation Studies and the growth of related journals. Experts and editors of leading journals in the field probe the interactive relationship between the production of journals and the development of Translation Studies and provide a contextual framework for evaluating the field.",
+    "language": "en",
+    "category": "language arts & disciplines",
+    "cover_url": "photos/9781137522092_Translation_and_Academic_Journ.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "title": "Caribbean Military Encounters",
+    "author": "Shalini Puri|Lara Putnam",
+    "isbn": "9781137580146",
+    "year": 2015,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book provides a much-needed study of the lived experience of militarization in the Caribbean from 1914 to the present. It offers an alternative to policy and security studies by drawing on the perspectives of literary and cultural studies, history, anthropology, ethnography, music, and visual art. Rather than opposing or defending militarization per se, this book focuses attention on how Caribbean people negotiate militarization in their everyday lives. The volume explores topics such as the US occupation of Haiti; British West Indians in World War I; the British naval invasion of Anguilla; military bases including Chaguaramas, Vieques and Guantánamo; the militarization of the police; sex work and the military; drug wars and surveillance; calypso commentaries; private security armies; and border patrol operations.",
+    "language": "en",
+    "category": "literary criticism",
+    "cover_url": "photos/9781137580146_Caribbean_Military_Encounters.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 3,
+  "fields": {
+    "title": "African American Political Thought and American Culture",
+    "author": "Alex Zamalin",
+    "isbn": "9781137528100",
+    "year": 2015,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book demonstrates how certain African American writers radically re-envisioned core American ideals in order to make them serviceable for racial justice. Each writer's unprecedented reconstruction of key American values has the potential to energize American citizenship today.",
+    "language": "en",
+    "category": "political science",
+    "cover_url": "photos/9781137528100_African_American_Political_Tho.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 4,
+  "fields": {
+    "title": "Materiality and the Modern Cosmopolitan Novel",
+    "author": "Alan McCluskey",
+    "isbn": "9781137503381",
+    "year": 2015,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "In this work, Alan McCluskey explores materialism, in its many conceptual forms, in the contemporary cosmopolitan novel. The author applies a 'cosmopolitan materialist' lens to the novels of Caryl Phillips, J. M. Coetzee, and Philip Roth: three contemporary authors who hail from different parts of the world and produce highly dissimilar novels.",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9781137503381_Materiality_and_the_Modern_Cos.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 5,
+  "fields": {
+    "title": "Reading, Feminism, and Spirituality",
+    "author": "Dawn Llewellyn",
+    "isbn": "9781137522870",
+    "year": 2015,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Through original interviews and research, Llewellyn uses spirituality to uncover new commonalities between the second and third feminist waves, and sacred and secular experiences. Her lively approach highlights the importance of reading cultures in feminist studies, connecting women's voices across generations, literary practices, and religions.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9781137522870_Reading_Feminism_and_Spiritu.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 6,
+  "fields": {
+    "title": "Encyclopedia of Business and Professional Ethics",
+    "author": "Deborah C Poff|Alex C. Michalos",
+    "isbn": "9783030227678",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This encyclopedia, edited by the past editors and founder of the Journal of Business Ethics, is the only reference work dedicated entirely to business and professional ethics. Containing over 2000 entries, this multi-volume, major research reference work provides a broad-based disciplinary and interdisciplinary approach to all of the key topics in the field. The encyclopedia draws on three interdisciplinary and over-lapping fields: business ethics, professional ethics and applied ethics although the main focus is on business ethics. The breadth of scope of this work draws upon the expertise of human and social scientists, as well as that of professionals and scientists in varying fields. This work has come to fruition by making use of the expert academic input from the extraordinarily rich population of current and past editorial board members and section editors of and contributors to the Journal of Business Ethics.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9783030227678_Encyclopedia_of_Business_and_P.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 7,
+  "fields": {
+    "title": "Managing Humans",
+    "author": "Michael Lopp",
+    "isbn": "9781484221587",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Read hilarious stories with serious lessons that Michael Lopp extracts from his varied and sometimes bizarre experiences as a manager at Apple, Pinterest, Palantir, Netscape, Symantec, Slack, and Borland. Many of the stories first appeared in primitive form in Lopp’s perennially popular blog, Rands in Repose. The Third Edition of Managing Humans contains a whole new season of episodes from the ongoing saga of Lopp's adventures in Silicon Valley, together with classic episodes remastered for high fidelity and freshness. Whether you're an aspiring manager, a current manager, or just wondering what the heck a manager does all day, there is a story in this book that will speak to you—and help you survive and prosper amid the general craziness of dysfunctional bright people caught up in the chase of riches and power. Scattered in repose among these manic misfits are managers, an even stranger breed of people who, through a mystical organizational ritual, have been given power over the futures and the bank accounts of many others. Lopp's straight-from-the-hip style is unlike that of any other writer on management and leadership. He pulls no punches and tells stories he probably shouldn't. But they are magically instructive and yield Lopp’s trenchant insights on leadership that cut to the heart of the matter—whether it's dealing with your boss, handling a slacker, hiring top guns, or seeing a knotty project through to completion. Writing code is easy. Managing humans is not. You need a book to help you do it, and this is it. What You'll Learn Lead engineers Handle conflict Hire well Motivate employees Manage your boss Discover how to say no Understand different engineering personalities Build effective teams Run a meeting well Scale teams Who This Book Is For Managers and would-be managers staring at the role of a manager wondering why they would ever leave the safe world of bits and bytes for the messy world of managing humans. The book covers handling conflict, managing wildly differing personality types, infusing innovation into insane product schedules, and figuring out how to build a lasting and useful engineering culture.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9781484221587_Managing_Humans.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 8,
+  "fields": {
+    "title": "Disruptive Analytics",
+    "author": "Thomas W. Dinsmore",
+    "isbn": "9781484213117",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Learn all you need to know about seven key innovations disrupting business analytics today. These innovations—the open source business model, cloud analytics, the Hadoop ecosystem, Spark and in-memory analytics, streaming analytics, Deep Learning, and self-service analytics—are radically changing how businesses use data for competitive advantage. Taken together, they are disrupting the business analytics value chain, creating new opportunities. Enterprises who seize the opportunity will thrive and prosper, while others struggle and decline: disrupt or be disrupted. Disruptive Business Analytics provides strategies to profit from disruption. It shows you how to organize for insight, build and provision an open source stack, how to practice lean data warehousing, and how to assimilate disruptive innovations into an organization. Through a short history of business analytics and a detailed survey of products and services, analytics authority Thomas W. Dinsmore provides a practical explanation of the most compelling innovations available today. What You'll Learn Discover how the open source business model works and how to make it work for you See how cloud computing completely changes the economics of analytics Harness the power of Hadoop and its ecosystem Find out why Apache Spark is everywhere Discover the potential of streaming and real-time analytics Learn what Deep Learning can do and why it matters See how self-service analytics can change the way organizations do business Who This Book Is For Corporate actors at all levels of responsibility for analytics: analysts, CIOs, CTOs, strategic decision makers, managers, systems architects, technical marketers, product developers, IT personnel, and consultants.",
+    "language": "en",
+    "category": "computers",
+    "cover_url": "photos/9781484213117_Disruptive_Analytics.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 9,
+  "fields": {
+    "title": "Ethics and Accountable Governance in Africa's Public Sector, Volume I",
+    "author": "Kemi Ogunyemi|Isaiah Adisa|Robert E. Hinson",
+    "isbn": "9783030953942",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book is an excellent resource for academics and students interested in ethics and accountability in the public sector, as well as for practitioners, NGO workers and policymakers. Over the last decades, issues in ethical leadership have become central to the global call for higher moral standards on the part of corporate organisations and their leaders and managers. The book’s chapters investigate these concerns in Africa, where governance gaps often reflect poor leadership. Parenthetically, in 2001, a UNDP report found difficulties in applying anti-corruption laws and managing public institutions in the continent. Twenty years on, significant efforts have been made to improve the situation, yet extensive challenges still subsist. In this first volume, contributors discuss the practice of ethics, anti-corruption, and performance management, and propose solutions, some general to the continent and others country-specific.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9783030953942_Ethics_and_Accountable_Governa.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 10,
+  "fields": {
+    "title": "Strategic Equity Partnerships in Professional Football",
+    "author": "Tobias Duffner",
+    "isbn": "9783658313012",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The study explores the underlying motives and processes why and how corporate sponsors and professional football clubs in Germany enter into an additional share deal given the contradictory nature of corporations (monetary driven) and football clubs (maximising sporting success while operating in economic equilibrium). This work aims to generate theory within the specific field of professional football and to provide recommendations for action.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9783658313012_Strategic_Equity_Partnerships_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 11,
+  "fields": {
+    "title": "Nourished Planet",
+    "author": "Barilla Center for Food and Nutrition",
+    "isbn": "9781610918947",
+    "year": 2016,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Nourished Planet illustrates what our global food system can be - a collection of the smartest ideas to nourish us all. From urban farmers in Kenya to American doctors to government officials in Egypt, its voices demonstrate how diverse perspectives are coming together to feed the world sustainably.--back cover.",
+    "language": "en",
+    "category": "medical",
+    "cover_url": "photos/9781610918947_Nourished_Planet.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 12,
+  "fields": {
+    "title": "The Book-Collector's Hand-Book; a Modern Library Companion",
+    "author": "Edward Churton",
+    "isbn": "9783368867072",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Reprint of the original, first published in 1845.",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9783368867072_The_Book-Collectors_Hand-Book.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 13,
+  "fields": {
+    "title": "Looked over Jordan",
+    "author": "Johnny Sundstrom",
+    "isbn": "9781543467598",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "LOOKED OVER JORDAN is the final volume of the authors Land of Promise trilogy. The rapid and ongoing transition of the American West from frontier to settlement is here, embodied in the lives of Abe Saunders and the women he loves. A Confederate veteran, pioneer, and rancher, he is invited to start up and edit a newspaper in a booming frontier town. In this role, he uses the opportunity to advocate for his Indian friends fight to regain their homeland in Eastern Oregon and Idaho. A career in state politics follows, but his growing prominence threatens the relationships he holds most dear. This multifaceted saga explores love, loss, destiny, our connection to the land, and becoming at home in a place. In the words of one of the next generation of these families, This land we are talking about cannot be owned by any one of us. It is the land of these two families, and it will be for all of us to call home, no matter what the governments papers say or any of the white mans laws have to do with it. What I see is that we are all relatives, all family, and we must trust one another, take care of each other, and honor the grandfathers and grandmothers who made one family out of two families, white and Indian, who made one dream for our generation and for our childrens children. What I want to see is that the memories of our ancestors are honored and respected for as long as we live. Ah ho.\"",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9781543467598_Looked_over_Jordan.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 14,
+  "fields": {
+    "title": "The bibliographer's manual of english literature",
+    "author": "William Thomas Lowndes",
+    "isbn": "9783382134921",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Reprint of the original, first published in 1871. The publishing house Anatiposi publishes historical books as reprints. Due to their age, these books may have missing pages or inferior quality. Our aim is to preserve these books and make them available to the public so that they do not get lost.",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9783382134921_The_bibliographers_manual_of_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 15,
+  "fields": {
+    "title": "The Bibliographer's Manual of English Literature",
+    "author": "William Lowndes",
+    "isbn": "9783382102852",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Reprint of the original. The publishing house Anatiposi publishes historical books as reprints. Due to their age, these books may have missing pages or inferior quality. Our aim is to preserve these books and make them available to the public so that they do not get lost.",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9783382102852_The_Bibliographers_Manual_of_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 16,
+  "fields": {
+    "title": "On Mark Twain",
+    "author": "Louis J. Budd|Edwin Harrison Cady",
+    "isbn": "9780822307594",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This volume in The Best from American Literature series presents articles and profiles the evolution of literary opinion and the shifts of critical emphasis. Beginning with an analysis of science in the thought of Mark Twain, the volume examines his indebtedness to literary comedians, such as George Horatio Derby, better known as John Phoenix; his contributions to the traditions of Southwestern humor; and how he employed images of endangered families. Other topics include: Twain as translator from the German; the composition and structure of The Adventures of Tom Sawyer; the style of Huckleberry Finn; his first and only novel about a young girl, Joan of Arc; the four roles into which he cast Satan; the probable meaning of A Connecticut Yankee; and a thematic analysis of Pudd'nhead Wilson. ISBN 0-8223-0759-6: $33.50.",
+    "language": "en",
+    "category": "fiction",
+    "cover_url": "photos/9780822307594_On_Mark_Twain.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 17,
+  "fields": {
+    "title": "Violence and Crime in Nineteenth Century England",
+    "author": "J. Carter Wood",
+    "isbn": "9781134332465",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book illuminates the origins and development of violence as a social issue by examining a critical period in the evolution of attitudes towards violence. It explores the meaning of violence through an accessible mixture of detailed empirical research and a broad survey of cutting-edge historical theory. The author discusses topics such as street fighting, policing, sports, community discipline and domestic violence and shows how the nineteenth century established enduring patterns in views of violence. Violence and Crime in Nineteenth-Century England will be essential reading for advanced students and researchers of modern British history, social and cultural history and criminology.",
+    "language": "en",
+    "category": "education",
+    "cover_url": "photos/9781134332465_Violence_and_Crime_in_Nineteen.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 18,
+  "fields": {
+    "title": "The Best American Nonrequired Reading 2017",
+    "author": "826 National|Sarah Vowell",
+    "isbn": "9781328664075",
+    "year": 2017,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "“A gift . . . One wonders how the world might be different if works in The Best American Nonrequired Reading were indeed required.” —USA Today Sarah Vowell, author of Lafayette in the Somewhat United States and other best-selling titles \"gilded with snark, buoyant on charm\" (NPR), worked with the students of the 826 Valencia writing lab to edit this year's anthology. They compiled new fiction, nonfiction, poetry, comics, and the category-defying gems that have become one of the hallmarks of this lively collection.",
+    "language": "en",
+    "category": "literary collections",
+    "cover_url": "photos/9781328664075_The_Best_American_Nonrequired_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 19,
+  "fields": {
+    "title": "Water Resources of Italy",
+    "author": "Giuseppe Rossi|Marcello Benedini",
+    "isbn": "9783030364601",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book offers a comprehensive framework of the current state of water resources in Italy and of the main stages of the evolutionary way in the last decades for achieving an integrated, sustainable and equitable water resources management. The main paradigms of water resources development are identified as: i) engineering and economic approach to water resources exploitation, ii) focus on pollution control and water-excess management, iii) a comprehensive approach toward a sustainable and equitable distribution of resources and effective risk reduction of water-related disasters. After a section devoted to the analysis of some historic stages in the legislation framework and the governance of water and soil, with particular reference to planning, design, building and operation of water systems, two sections deal with the estimation of water resources availability on national territory and estimation of water demands in municipal, agricultural, industrial, ecosystem sectors. The complex problems that the Italian society has to solve in the water field and the main challenges of a changing world are discussed in the fourth section of the volume. The book will not only be useful for water professionals, but also for citizen who like to discern the key factors which delay the recognition of water as a resource for life. The description of the problems and adopted solutions could also serve as a guideline for similar situations encountered in other countries, improving the preparation of the responsible people.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9783030364601_Water_Resources_of_Italy.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 20,
+  "fields": {
+    "title": "Advances and Trends in Engineering Sciences and Technologies III",
+    "author": "Mohamad Ali|Peter Platko",
+    "isbn": "9780429667152",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "These are the proceedings of the 3rd International Conference on Engineering Sciences and Technologies (ESaT 2018), held from 12th - 14th September 2018 in the High Tatras Mountains, Tatranské Matliare, Slovak Republic. ESaT 2018 was organized under the auspices of the Faculty of Civil Engineering, Technical University of Košice - Slovak Republic in collaboration with Peter the Great St. Petersburg Polytechnic University - Russia after the successful organization with excellent feedback of the previous international conferences ESaT 2015 and ESaT 2016. The proceedings is covering various topics and disciplines in civil engineering sciences, such as Buildings and Architectural Engineering, Bearing Structures, Material and Environmental Engineering, Construction Technology and Management, Building Physics and Facilities, Geodesy, Surveying and Mapping, Geotechnics and Traffic Engineering. The proceedings report on new and original progress and trends in various fields of engineering sciences that will be of interest to a wide range of academics and professionals from university and industry. 116 papers originating from more than 10 countries have been accepted for publication in the conference proceedings. Each accepted paper was reviewed by two reviewers, selected according to the scientific area and orientation of the paper, which guarantees topicality, quality and an advanced level of the presented results.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9780429667152_Advances_and_Trends_in_Enginee.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 21,
+  "fields": {
+    "title": "Global Water Resources",
+    "author": "Cecilia Tortajada|Eduardo Araral",
+    "isbn": "9781000455038",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is a Festschrift in honour of Professor Asit K. Biswas, for his manifold contributions to water resources policy and management and his extensive efforts over six decades to generate, synthetize, apply, and disseminate knowledge at national and global levels. Global Water Resources: Festschrift in Honour of Asit K. Biswas includes invited contributions on global water issues from 23 globally renowned leaders in the public and private sectors, as well as academia, who have made significant contributions to the field of water resources policy, management, development and governance. The vision and expertise of this distinguished group of experts provides a unique focus on unfolding water issues and their bearing on world development This book will be of great value to scholars, students, and policymakers interested in water resource governance, sustainable development, and climate change. The chapters in this book were originally published as a special issue of the International Journal of Water Resources Development.",
+    "language": "en",
+    "category": "nature",
+    "cover_url": "photos/9781000455038_Global_Water_Resources.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 22,
+  "fields": {
+    "title": "The Proceedings of the 2023 Conference on Systems Engineering Research",
+    "author": "Dinesh Verma|Azad M. Madni|Steven Hoffenson|Lu Xiao",
+    "isbn": "9783031491795",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The 20th International Conference on Systems Engineering Research (CSER 2023) pushes the boundaries of systems engineering research and responds to new challenges for systems engineering. CSER 2023 invited researchers and practitioners to submit their work in alignment with the thematic focus on a smart and sustainable world. CSER was founded in 2003 by Stevens Institute of Technology and the University of Southern California, and in 2023 the conference returned to the Stevens campus in Hoboken, New Jersey.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9783031491795_The_Proceedings_of_the_2023_Co.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 23,
+  "fields": {
+    "title": "Future Of The Large Hadron Collider, The: A Super-accelerator With Multiple Possible Lives",
+    "author": "Oliver Bruning|Max Klein|Lucio Rossi|Paolo Spagnolo",
+    "isbn": "9789811280191",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The Large Hadron Collider (LHC) is the highest energy collider ever built. It resides near Geneva in a tunnel 3.8m wide, with a circumference of 26.7km, which was excavated in 1983-1988 to initially house the electron-positron collider LEP. The LHC was approved in 1995, and it took until 2010 for reliable operation. By now, a larger set of larger integrated luminosities have been accumulated for physics analyses in the four collider experiments: ATLAS, CMS, LHCb and ALICE.The LHC operates with an extended cryogenic plant, using a multi-stage injection system comprising the PS and SPS accelerators (still in use for particle physics experiments at lower energies). The beams are guided by 1232 superconducting high field dipole magnets.Intense works are underway in preparation of the High Luminosity LHC, aimed at upgrading the LHC and detectors for collecting ten times more luminosity, and extending the collider life to the early 2040's. So far, the (HL-)LHC project represents a cumulation of around one hundred thousand person-years of innovative work by technicians, engineers, and physicists from all over the world; probably the largest scientific effort ever in the history of humanity. The book is driven by the realisation of the unique value of this accelerator complex and by the recognition of the status of high energy physics, described by a Standard Model — which still leaves too many questions unanswered to be the appropriate theory of elementary particles and their interactions.Following the Introduction are: three chapters which focus on the initial decade of operation, leading to the celebrated discovery of the Higgs Boson, on the techniques and physics of the luminosity upgrade, and finally on major options - of using the LHC in a concurrent, power economic, electron-hadron scattering mode, when upgraded to higher energies or eventually as an injector for the next big machine. The various technical and physics chapters, provided by 61 authors, characterise the fascinating opportunities the LHC offers for the next two decades ahead (possibly longer), with the goal to substantially advance our understanding of nature.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9789811280191_Future_Of_The_Large_Hadron_Col.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 24,
+  "fields": {
+    "title": "The Cognitive Neurosciences, sixth edition",
+    "author": "David Poeppel|George R. Mangun|Michael S. Gazzaniga",
+    "isbn": "9780262043250",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The sixth edition of the foundational reference on cognitive neuroscience, with entirely new material that covers the latest research, experimental approaches, and measurement methodologies. Each edition of this classic reference has proved to be a benchmark in the developing field of cognitive neuroscience. The sixth edition of The Cognitive Neurosciences continues to chart new directions in the study of the biological underpinnings of complex cognition—the relationship between the structural and physiological mechanisms of the nervous system and the psychological reality of the mind. It offers entirely new material, reflecting recent advances in the field, covering the latest research, experimental approaches, and measurement methodologies. This sixth edition treats such foundational topics as memory, attention, and language, as well as other areas, including computational models of cognition, reward and decision making, social neuroscience, scientific ethics, and methods advances. Over the last twenty-five years, the cognitive neurosciences have seen the development of sophisticated tools and methods, including computational approaches that generate enormous data sets. This volume deploys these exciting new instruments but also emphasizes the value of theory, behavior, observation, and other time-tested scientific habits. Section editors Sarah-Jayne Blakemore and Ulman Lindenberger, Kalanit Grill-Spector and Maria Chait, Tomás Ryan and Charan Ranganath, Sabine Kastner and Steven Luck, Stanislas Dehaene and Josh McDermott, Rich Ivry and John Krakauer, Daphna Shohamy and Wolfram Schultz, Danielle Bassett and Nikolaus Kriegeskorte, Marina Bedny and Alfonso Caramazza, Liina Pylkkänen and Karen Emmorey, Mauricio Delgado and Elizabeth Phelps, Anjan Chatterjee and Adina Roskies",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9780262043250_The_Cognitive_Neurosciences_s.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 25,
+  "fields": {
+    "title": "Adaptive Reuse of Cultural Heritage",
+    "author": "Luigi Fusco Girard|Antonia Gravagnuolo",
+    "isbn": "9783031676284",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This open access book addresses the gap in existing knowledge on cultural heritage from a circular economy and sustainable development perspective for cities. It introduces innovative economic, environmental and governance models and evaluation tools tested and validated for adaptive reuse within the “CLIC - Circular models Leveraging Investments in Cultural Heritage Adaptive Reuse” project funded by the European Horizon 2020 Research & Innovation Action Program. The CLIC project is a trans-disciplinary research project bringing together expertise from disciplines such as heritage studies, regeneration and urban development, business management, economics, ecology and social sciences. The research covered in this book, responds to the European Societal Challenge 5 'Climate action, environment, resource efficiency and raw materials', aimed at achieving resource efficient and climate change resilient economy and society through systemic innovation. The CLIC project also unlocks public and private investments in solutions for a more resource efficient, greener and more competitive economy as a key part of smart, inclusive and sustainable growth strategy for Europe and worldwide. This book is fundamental key reading for scholars, professionals and policy makers, demonstrating how the adaptive reuse of cultural heritage, in a systemic perspective, has the potential to stimulate growth, sustainable development, social regeneration, welfare, jobs, income, and livability of urban / territorial settings: to implement the circular economy model. It also provides innovative models and a circular toolkit for financing, reusing and managing cultural heritage based on research outcomes and implementation of experimental models in four pilot European territories covered as case studies.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9783031676284_Adaptive_Reuse_of_Cultural_Her.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 26,
+  "fields": {
+    "title": "Particle Physics Reference Library",
+    "author": "Herwig Schopper",
+    "isbn": "9783030382070",
+    "year": 2018,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This first open access volume of the handbook series contains articles on the standard model of particle physics, both from the theoretical and experimental perspective. It also covers related topics, such as heavy-ion physics, neutrino physics and searches for new physics beyond the standard model. A joint CERN-Springer initiative, the “Particle Physics Reference Library” provides revised and updated contributions based on previously published material in the well-known Landolt-Boernstein series on particle physics, accelerators and detectors (volumes 21A,B1,B2,C), which took stock of the field approximately one decade ago. Central to this new initiative is publication under full open access.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9783030382070_Particle_Physics_Reference_Lib.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 27,
+  "fields": {
+    "title": "Business Modelling",
+    "author": "Andrew B. Whinston",
+    "isbn": "9780792375555",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Business modelling is a vast arena of research and practice, which is gaining increasing important in the rapid development of e-commerce, globalization, and in particular, the movement toward global e-business. The ability to utilize advanced computing technology to model, analyse and simulate various aspects of ever-changing businesses has made a significant impact on the way businesses are designed and run these days. With the current global e-business and e-commerce initiatives, it has become important that all businesses carefully validate their business objectives, requirements, and strategies through a careful process of formal business modelling. It is important for effective enterprise decision making to have clear, concise business models that allow the extraction of critical value from business processes and specify the rules to be globally enforced. Particularly in e-business specifications, the need to be unambiguous, accurate, and complete becomes even greater, because there may be no human mediator or agent to rely on in complex or unforeseen situations. Business Modelling: Multidisciplinary Approaches - Economics, Operational, and Information Systems Perspectives, arranged in three parts, brings scholarly perspectives from various disciplines to bear on some of the critical aspects of business modeling. The first part (chapters 1-8) focuses on business modelling fundamentals and starts with a series of economics and operations research perspectives. The second part (chapters 9-19) concentrates on modelling in electronic businesses and focuses on Management Information Systems and Decision Support Systems. The third part (chapters 20-22) centers on multidisciplinary business modelling progress, in particular on the seminal work of Professor Andrew B. Whinston.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9780792375555_Business_Modelling.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 28,
+  "fields": {
+    "title": "Proceedings of the International Conference on Digital Transformation in Business: Navigating the New Frontiers Beyond Boundaries (DTBNNF 2024)",
+    "author": "N. V. Suresh|P. S. Buvaneswari",
+    "isbn": "9789464634334",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is an open access book. \"Digital Transformation in Business: Navigating the New Frontiers Beyond Boundaries.\" Scheduled for 24th & 25th January 2024 promises to be a transformative and enlightening experience for Academicians, Research scholars, business leaders, innovators, and technology enthusiasts. The central theme of this conference, \"Navigating the New Frontiers Beyond Boundaries,\" encapsulates the current state of business in the digital era. As technology continues to shape our world, boundaries that were once considered insurmountable are being challenged, reshaped, and even obliterated. Digital transformation is at the heart of this evolution, and this conference aims to explore how businesses can harness its power to reach new heights. Objectives of the Conference : Help researchers and practitioners reassess business model and plans through digital transformation. Help to recommend the innovation and transitions of new-age technology to the business. Support researchers and practitioners in evaluating improvements in customer experience. Showcase improvements in employee performance within the work environment through Digital transformation. Explore operational agility using digital transformation",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9789464634334_Proceedings_of_the_Internation.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 29,
+  "fields": {
+    "title": "Proceedings of the 2024 2nd International Conference on Finance, Trade and Business Management (FTBM 2024)",
+    "author": "Amalendu Bhunia|John Gong|Ran Zhang",
+    "isbn": "9789464635461",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book is open access FTBM 2024 will be held in Hangzhou, China during August 23-25, 2024. The conference will focus on the Finance, Trade and Business Management, discuss the key challenges and research directions faced by the development of this field, in order to promote the development and application of theories and technologies in this field in universities and enterprises, and provide innovative scholars who focus on this research field, engineers and industry experts provide a favorable platform for exchanging new ideas and presenting research results. Internet of Things Planned highlights of FTBM 2024 include: ● Addresses and presentations by some of the most respected researchers in the Finance, Trade and Business Management ● Panel discussions ● Presentations of accepted academic and practitioner research papers; a poster paper session",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9789464635461_Proceedings_of_the_2024_2nd_In.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 30,
+  "fields": {
+    "title": "Business for Higher Awards",
+    "author": "David Needham",
+    "isbn": "9780435453145",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This student text offers full coverage of the core units for Business HNC/D, reinforcing the theory with case studies and activities to develop students' knowledge and understanding.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9780435453145_Business_for_Higher_Awards.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 31,
+  "fields": {
+    "title": "ENTERprise Information Systems, Part I",
+    "author": "Joao Eduardo Quintela Varajao|Maria Manuela Cruz-Cunha|Goran D. Putnik|Antonio Trigo",
+    "isbn": "9783642164026",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book constitutes the proceedings of the International Conference on ENTERprise information systems, held Viana do Castelo, Portugal, in October 2010.",
+    "language": "en",
+    "category": "computers",
+    "cover_url": "photos/9783642164026_ENTERprise_Information_Systems.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 32,
+  "fields": {
+    "title": "Developments in Information & Knowledge Management for Business Applications",
+    "author": "Natalia Kryvinska|Michal Greguš",
+    "isbn": "9783030958138",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book discusses incentives for information management, usage of information for existing practices to become more efficient, the acceleration of executive learning, and an evaluation of the information management impact on an organization. In today’s COVID-influenced volatile world, companies face a variety of challenges. And the most crucial of them are high levels of uncertainty and risk. Therefore, companies are constantly under pressure to provide sustainable solutions. Accordingly, previously gathered knowledge and information can be extremely helpful for this purpose. Hence, this fourth book of our subseries continues to accentuate on different approaches, which point to the importance of continuous progress in structural management for sustainable growth. It highlights the permanent gain and usage of information. We would be pleased if the book can stimulate further research on this subject matter.",
+    "language": "en",
+    "category": "technology & engineering",
+    "cover_url": "photos/9783030958138_Developments_in_Information__.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 33,
+  "fields": {
+    "title": "The Handbook of Security",
+    "author": "Martin Gill",
+    "isbn": "9783030917357",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The substantially revised third edition of The Handbook of Security provides the most comprehensive analysis of scholarly security debates and issues to date. It reflects the developments in security technology, the convergence of the cyber and security worlds, and the fact that security management has become even more business focused. It covers newer topics like terrorism, violence, and cybercrime through various offence types such as commercial robbery and bribery. This handbook comprises mostly brand new chapters and a few thoroughly revised chapters, with discussions of the impact of the pandemic. It includes contributions from some of the world's leading scholars from an even broader geographic scale to critique the way security is provided and managed. It speaks to professionals working in security and students studying security-related courses. Chapter 5 is available open access under a Creative Commons Attribution 4.0 International License via link.springer.com.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9783030917357_The_Handbook_of_Security.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 34,
+  "fields": {
+    "title": "Business, Ethics and Society",
+    "author": "John G. Cullen",
+    "isbn": "9781529736410",
+    "year": 2019,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "With an emphasis on psychoanalytic theory, Business, Ethics and Society: Key Concepts, Current Debates and Contemporary Innovations provides a clear, concise introduction to the field of business ethics, while addressing contemporary issues and debates around the impacts of artificial intelligence, social media, the gig economy and populist politics on business and society. The book features mini-case studies from a variety of contexts and companies, including Gillette, Nike, Dove, British Airways and Microsoft, as well as thought-provoking questions throughout. Also included are: - Learning objectives - Chapter summaries - Recommended reading Business, Ethics and Society: Key Concepts, Current Debates and Contemporary Innovations serves as an ideal introductory text for students of undergraduate business ethics-related courses. Lecturers can access a range of online resources for use in their teaching, including an instructor’s manual, PowerPoint slides and SAGE Business Cases.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9781529736410_Business_Ethics_and_Society.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 35,
+  "fields": {
+    "title": "Leeds Pubs",
+    "author": "Paul Chrystal",
+    "isbn": "9781445696898",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A fascinating tour of Leeds’ pub scene, charting the city’s taverns, alehouses and watering holes, from past centuries to more recent times.",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781445696898_Leeds_Pubs.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 36,
+  "fields": {
+    "title": "Worthing Pubs",
+    "author": "David Muggleton|Colin Walton|James Henry",
+    "isbn": "9781445688039",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A fascinating tour of Worthing's pub scene, charting the town's taverns, alehouses and watering holes, from past centuries to more recent times.",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781445688039_Worthing_Pubs.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 37,
+  "fields": {
+    "title": "Dundee Pubs",
+    "author": "Brian King",
+    "isbn": "9781445696997",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A fascinating tour of the Scottish city of Dundee's hostelries, inns and taverns from across the centuries.",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781445696997_Dundee_Pubs.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 38,
+  "fields": {
+    "title": "The Role of Defamation in the Outbreak of War",
+    "author": "Andrzej Jarczewski",
+    "isbn": "9781527590939",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The book shows that the beginnings of the wars in 1939 and 2022—apart from political goals—had an event basis. Hitler liked to perform at the opera and therefore did not allow the destroyed Reichstag to be renovated for many years. Putin, in turn, prepared a victory parade in Kiev and ordered multi-meter banquet tables in Moscow. Hitler received solid military training and was initially very successful. Putin also wanted success, but he is only an officer of the secret political police, does not know the military and suffers defeat after defeat. Both Hitler and Putin used the available media and associated weapons of defamation: to insult and dehumanize the victim, and to accuse the opponent of the crimes they procured. This was intended to stop the West from helping. Hitler succeeded, but Putin did not. History repeated itself, but, as always, inaccurately. The book includes a translation of the full versions of the key propaganda texts that justify both wars. It is intended primarily for professional historians dealing with the beginning of World War II and the Russian invasion of Ukraine.",
+    "language": "en",
+    "category": "technology & engineering",
+    "cover_url": "photos/9781527590939_The_Role_of_Defamation_in_the_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 39,
+  "fields": {
+    "title": "The Secret War Against Red Russia",
+    "author": "Brian Best",
+    "isbn": "9781399090667",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The Armistice of November 1918 ended four years of slaughter that left armies exhausted and populations weary of war – but the fighting was not over. In Russia, civil war and revolution had divided the nation and the Allies sought to intervene on behalf of the ‘White’ Russians against the Bolsheviks and this conflict continued long after the war had finished elsewhere in Europe. A vital source of information from inside the Bolshevik-held territory came from British secret agents in Petrograd, the main one being Paul Dukes. Known as the ‘Man of a Hundred Faces’, Dukes had managed to infiltrate both the Communist Party and the political police. The problem which faced the head of the British Secret Intelligence Service, Maurice Smith-Cummings, was getting Dukes’ information back to London. Carrying information overland was proving far too problematical, so Smith-Cummings hit upon the idea of using one of the Royal Navy’s new fast Coastal Motor Boat which was revealed just before the end of the war. He recruited Lieutenant Augustus Agar and through him he found five men, all unmarried, who could handle the two CMBs. Using an inlet on the Finnish coast as a base, Agar slipped past a series of forts, submerged breakwaters and the Russian Baltic Fleet to reach Petrograd and made contact with Dukes. A frequent courier service was soon established, with Agar carrying couriers in and out of Petrograd under the very noses of the Russians. So confident did Agar become, he even torpedoed the Russian cruiser Oleg. He followed this with support from Admiral Sir Walter Cowan in an all-out raid upon the Russian ships with eight larger CMBs and a bombing raid by the RAF. The raid resulted in the sinking of two battleships and the submarine depot ship Pamiet Azova. Agar was quietly given the Victoria Cross but told not to publish his memoirs until 1963. As for Paul Dukes, his cover was eventually blown, and he had to escape via Latvia in a number of hair-raising escapades. In 1920 he was knighted by King George V, who called Dukes the ‘greatest of all soldiers’. To this day, Dukes is the only person knighted based entirely on his exploits in espionage. This is their remarkable story.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781399090667_The_Secret_War_Against_Red_Rus.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 40,
+  "fields": {
+    "title": "The Sullivanians",
+    "author": "Alexander Stille",
+    "isbn": "9780374600402",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "FINALIST FOR THE 2024 GOTHAM BOOK PRIZE The devolution of the Sullivan Institute, from psychoanalytic organization to insular, radical cult. In the middle of the Ozzie and Harriet 1950s, the birth control pill was introduced and a maverick psychoanalytic institute, the Sullivan Institute for Research in Psychoanalysis, opened its doors in New York City. Its founders, Saul Newton and Jane Pearce, wanted to start a revolution, one grounded in ideals of creative expression, sexual liberation, and freedom from the expectations of society, and the revolution, they felt, needed to begin at home. Dismantling the nuclear family—and monogamous marriage—would free people from the repressive forces of their parents. In its first two decades, the movement attracted many brilliant, creative people as patients: the painter Jackson Pollock and a swarm of other abstract expressionist artists, the famed art critic Clement Greenberg, the singer Judy Collins, and the dancer Lucinda Childs. In the 1960s, the group evolved into an urban commune of three or four hundred people, with patients living with other patients, leading creative, polyamorous lives. But by the mid-1970s, under the leadership of Saul Newton, the Institute had devolved from a radical communal experiment into an insular cult, with therapists controlling virtually every aspect of their patients’ lives, from where they lived and the work they did to how often they saw their sexual partners and their children. Although the group was highly secretive during its lifetime and even after its dissolution in 1991, the noted journalist Alexander Stille has succeeded in reconstructing the inner life of a parallel world hidden in plain sight in the middle of Manhattan. Through countless interviews and personal papers, The Sullivanians reveals the nearly unbelievable story of a fallen utopia.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9780374600402_The_Sullivanians.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 41,
+  "fields": {
+    "title": "North Shields and Tynemouth Pubs",
+    "author": "Eileen Burnett",
+    "isbn": "9781445696737",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A fascinating tour of North Shields’ and Tynemouth’s pub scene, charting the towns’ taverns, alehouses and watering holes, from past centuries to more recent times.",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781445696737_North_Shields_and_Tynemouth_Pu.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 42,
+  "fields": {
+    "title": "Out of the Darkness",
+    "author": "Kate Kerrow|Rebecca Mordan",
+    "isbn": "9780750998437",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "In 1981, a group of women marched from Cardiff to the Greenham Common RAF base in Newbury to protest the siting of US nuclear missiles on British soil. They formed what became the Greenham Common Women's Peace Camp and stayed there for almost twenty years, in what would become the largest, most effective woman-led protest since the Suffrage campaign. Out of the Darkness reunites the women of Greenham to share their recollections of the highs and lows of camp life, explore how they organised, and uncover the non-violent ways they challenged military, police and cultural forces, all in the name of peace. Whether freeing MoD geese or dancing on silos, whether composing songs to put their cases across in court or kissing in the face of advancing police, this is the story of the power of creativity, wit and courage, and the sisterhood the Greenham women created. This book celebrates the Greenham pioneers of peaceful protest and hopes to inspire a new generation of activists.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9780750998437_Out_of_the_Darkness.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 43,
+  "fields": {
+    "title": "Military Strategy, Joint Operations, and Airpower",
+    "author": "Ryan Burke|Michael Fowler|Jahara Matisek",
+    "isbn": "9781647122508",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "\"Military Strategy, Joint Operations, and Airpower introduces students to contemporary strategy and the operational level of war, particularly as it relates to airpower. Developed as foundational reading for all US Air Force Academy cadets, this intermediate textbook is designed to close the gap between military theory and practice. It covers strategic foundations; operational design and joint-service operations; the air, space, and cyber capabilities that comprise modern airpower; and contemporary challenges in the application of strategy. In this second edition, each chapter has been updated and revised, and several sections have been expanded. Part II Military Forces and the Joint Fight is now has separate chapters about each service in addition to a chapter on joint structure. Similarly, operational design is expanded from one to four chapters to provide a more thorough step-by-step guide through the process. New chapters in this second edition include \"Integrating the Instruments of Power,\" \"The Spectrum of Conflict and Range of Military Operations,\" and \"The Nuclear Weapons Triad and Missile Defense.\" This book's contributing authors and editors include both military practitioners and scholars of security studies, political science, and history. In addition to being required reading for Air Force cadets and ROTC students, the book will provide an essential overview of strategy and practice for anyone interested in modern airpower\"--",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781647122508_Military_Strategy_Joint_Opera.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 44,
+  "fields": {
+    "title": "Osiris, Volume 40",
+    "author": "Tamar Novick|Lisa Onaga|Gabriel N. Rosenberg",
+    "isbn": "9780226848181",
+    "year": 2020,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Situates \"animal mobility\" within the politics of movement, opening new perspectives in the history of science. Human societies often come to know the natural world by examining animals, even as animals, frequently both willful and animate, can elude human grasps and challenge human aims. Animals and their movements have underpinned many methodological, moral, and epistemic dilemmas that generatively trouble the field. Featuring a range of geographies, species, languages, and cultures, the contributions in this volume broaden the view of the historical roles animals play in knowledge production processes. Organized according to three scales of animal movement (individuals, groups, systems), the twelve richly illustrated inquiries are situated in different time periods, from the sixteenth-century Ottoman Empire to the recent globalized past, and introduce varied forms, capacities, and politics of movement associated with animals. The analytic attention to animal mobility deepens comprehension of animal agency and human–animal interactions in unexpected spaces, including airports, entertainment venues, living rooms, dirt roads, and waterways. Taken together, the case studies in this volume reconsider how, where, and by whom science is done.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9780226848181_Osiris_Volume_40.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 45,
+  "fields": {
+    "title": "Euston - A history and modelling the 1875 station",
+    "author": "David Ashwood",
+    "isbn": "9781399081740",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Euston Station was the first intercity railway gateway for London and with the famed Doric Arch became a major landmark of that city. Initially built for the London and Birmingham Railway, it became the terminus of the LNWR Premier Line, then HQ of the London Midland and Scottish. The controversial 1960’s demolition of the site stimulated the building preservation movement. Latterly we have a challenging on / off love affair with the area through the High Speed Two project. This book contains both a background history of Euston and its environs, combined with a modellers review of building a ‘OO’ gauge mid Victorian station complex. A core model of the old station was kindly donated to the Market Deeping Model Railway Club (MDMRC) following the sad act of vandalism of their model railway show in 2019. This in turn served as a stimulus to expand, detail and research during the Covid isolation and lockdown years. This book is the end result of these endeavours. We use the model to underpin the history and allow a geographical walkthrough of the site, plus hints, tips and techniques on building a landmark model. It has been an enjoyable and eye opening challenge to unveil the story under, through and over Euston. Written and contributed to by members of the MDMRC, all royalties will go the club. Charity number: 1187779.",
+    "language": "en",
+    "category": "crafts & hobbies",
+    "cover_url": "photos/9781399081740_Euston_-_A_history_and_modelli.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 46,
+  "fields": {
+    "title": "Children of the Revolution",
+    "author": "Laura J. Enriquez",
+    "isbn": "9781503631298",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Andrea, Silvia, Ana, and Pamela were impoverished youth when the Sandinista revolution took hold in Nicaragua in 1979. Against the backdrop of a war and economic crisis, the revolution gave them hope of a better future — if not for themselves, then for their children. But, when it became clear that their hopes were in vain, they chose to emigrate. Children of the Revolution tells these four women's stories up to their adulthood in Italy. Laura J. Enríquez's compassionate account highlights the particularities of each woman's narrative, and shows how their lives were shaped by social factors such as their class, gender, race, ethnicity, and immigration status. These factors limited the options available to them, even as the women challenged the structures and violence surrounding them. By extending the story to include the children, and now grandchildren, of the four women, Enríquez demonstrates how their work abroad provided opportunities for their families that they themselves never had. Hence, these stories reveal that even when a revolution fails to fundamentally transform a society in a lasting way, seeds of change may yet take hold.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9781503631298_Children_of_the_Revolution.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 47,
+  "fields": {
+    "title": "Crusades",
+    "author": "Jonathan Phillips|Iris Shagrir|Benjamin Z. Kedar",
+    "isbn": "9781000802481",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Crusades covers the seven hundred years from the First Crusade (1095-1102) to the fall of Malta (1798) and draws together scholars working on theatres of war, their home fronts and settlements from the Baltic to Africa and from Spain to the Near East and on theology, law, literature, art, numismatics and economic, social, political and military history. Routledge publishes this journal for The Society for the Study of the Crusades and the Latin East. Particular attention is given to the publication of historical sources - narrative, homiletic and documentary - but studies and interpretative essays are welcomed too. Crusades also incorporates the Society's Bulletin. The editors are Professor Jonathan Phillips, Royal Holloway, University of London, UK; Iris Shagrir, The Open University of Israel; Professor Benjamin Z. Kedar, Hebrew University of Jerusalem, Israel; and Nikolaos G. Chrissis, Democritus University of Thrace, Greece.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781000802481_Crusades.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 48,
+  "fields": {
+    "title": "The Best American Travel Writing 2021",
+    "author": "Padma Lakshmi|Jason Wilson",
+    "isbn": "9780358361312",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A collection of the year's best travel writing selected by Padma Lakshmi",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9780358361312_The_Best_American_Travel_Writi.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 49,
+  "fields": {
+    "title": "Universal – International – Global",
+    "author": "Antje Kempe|Beata Hock|Marina Dmitrieva",
+    "isbn": "9783412520823",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This collection of articles explores a possible alternative beginning of Global Art History and World Art Studies, two methodologies that set a worldwide focus in the study of art around the 2000s. Teaching back to earlier efforts to conceive of the international community in a less Eurocentric way, the volume proposes a tentative link between socialist internationalism as a political and cultural diplomatic principle in the Soviet Block and some new approaches to art and cultural historiography introduced there. In the \"Second World\", universal art history or Weltkunstgeschichte were endorsed as frameworks for the teaching and writing of art history. Authors in this book interrogate whether \"world art history\" as practiced by socialist scholars had aspirations and achievements comparable to today's Global Art History and World Art Studies. Or was this knowledge production in an internationalist paradigm a mere foil for communist rhetoric, behind which severed cultural relations to the Western world could also be recommenced?",
+    "language": "en",
+    "category": "art",
+    "cover_url": "photos/9783412520823_Universal__International__Gl.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 50,
+  "fields": {
+    "title": "King Dollar",
+    "author": "Paul Blustein",
+    "isbn": "9780300281248",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "An award-winning economic journalist on why the US dollar is positioned to maintain global primacy—and what that means for America and the world Prophecies that the dollar will lose its status as the world’s dominant currency have echoed for decades—and are increasing in volume. Cryptocurrency enthusiasts claim that Bitcoin or other blockchain-based monetary units will replace the dollar. Foreign policy hawks warn that China’s renminbi poses a lethal threat to the greenback. And sound money zealots predict that mounting US debt and inflation will surely erode the dollar’s value to the point of irrelevancy. Contra the doomsayers, Paul Blustein shows that the dollar’s standing atop the world’s currency pyramid is impregnable, barring catastrophic policy missteps by the US government. Recounting how the United States has wielded the dollar to impose devastating sanctions against adversaries, Blustein explains that although targets such as Russia have found ways to limit the damage, Washington’s financial weaponry will retain potency long into the future. His message, however, is that America must not be complacent about the dollar; the great power that its supremacy confers comes with commensurate responsibility.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9780300281248_King_Dollar.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 51,
+  "fields": {
+    "title": "Militias, States and Violence against Civilians",
+    "author": "Paul Lorenzo Johnson|William Wittels",
+    "isbn": "9781000870503",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book examines the conditions under which the presence and use of militias result in an increase or a decrease in violence against civilians in intra-state conflicts. Showcasing the breadth and diversity of modern militias in the context of violence against civilians, the volume addresses the predation and repression that many such groups are infamous for, as well as increasingly important efforts by other militias at civilian protection in war-torn settings. The chapters examine militias from around the world, drawing on both qualitative and quantitative methods as they cover groups as varied as gangs, death squads, grassroots community-defense groups, official state militias, and party-sponsored armies – groups on the \"civic vice\" side, the \"civic virtue\" side, and the wide and mixed in-between space where most cases fall. Taken as a cohesive unit, the work lays the foundation for an encompassing theory and interrogation of the causal chain between militia type and operating context and the levels of violence against civilians. It provides path-breaking theory-building and empirical scholarship. Policymakers and national security practitioners dealing with issues relating to armed groups will also benefit from the practical issues covered here, such as how different forms of sponsorship and training affect militia behavior. This book will be of interest to students of civil wars, political violence, counterinsurgency, civil-military relations, and security studies in general.",
+    "language": "en",
+    "category": "political science",
+    "cover_url": "photos/9781000870503_Militias_States_and_Violence_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 52,
+  "fields": {
+    "title": "The Routledge Handbook of Urban Studies in Latin America and the Caribbean",
+    "author": "Jesús M. González-Pérez|Clara Irazábal|Rubén C. Lois-González",
+    "isbn": "9781000605907",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This handbook presents the great contemporary challenges facing cities and urban spaces in Latin America and the Caribbean. The content of this multidisciplinary book is organized into four large sections focusing on the histories and trajectories of urban spatial development, inequality and displacement of urban populations, contemporary debates on urban policies, and the future of the city in this region. Scholars of diverse origins and specializations analyze Latin American and Caribbean cities showing that, despite their diversity, they share many characteristics and challenges and that there is value in systematizing this knowledge to both understand and explain them better and to promote increasing equity and sustainability. The contributions in this handbook enhance the theoretical, empirical and methodological study of urbanization processes and urban policies of Latin America and the Caribbean in a global context, making it an important reference for scholars across the world. The book is designed to meet the interdisciplinary study and consultation needs of undergraduate and graduate students of architecture, urban design, urban planning, sociology, anthropology, political science, public administration, and more.",
+    "language": "en",
+    "category": "political science",
+    "cover_url": "photos/9781000605907_The_Routledge_Handbook_of_Urba.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 53,
+  "fields": {
+    "title": "What Is a Criminal?",
+    "author": "Katherine S. Gaudet",
+    "isbn": "9781000817942",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Bringing together a collection of essays by writers with diverse knowledge of the US criminal justice system, from those with personal experience in prison and on patrol to scholarly researchers, What Is a Criminal? explores the category of \"criminal\" through the human stories of those who bear and administer that label. This book performs a rare feat in bringing together the perspectives of justice-impacted people, those who work in law enforcement and social services, and scholarly researchers. Each chapter is a compelling narrative sharing the experience and perspective of a unique person with knowledge of the justice system. The first section, \"Incarceration, Reentry, and Rebuilding,\" gives a glimpse into the \"black box\" of prison, with firsthand accounts of daily life on the inside and the struggle to begin a new life after prison. Section 2, \"Journeys in Law Enforcement,\" presents perspectives from police officers, school resource officers, and corrections officers who are working to better their communities. The third section, \"Ripple Effects,\" addresses some of the broader impacts of the justice system, showing what it is like to be the child of an incarcerated parent, to be profiled, to be an undocumented immigrant, and to make art about the justice system. The final section, \"Scholarly Perspectives,\" is comprised of accessible articles by academics who study law and crime. Each chapter stands alone as an individual story, but taken together they provide a uniquely nuanced view of the US justice system. This book will be of interest to anyone who wants to know more about criminality, the US justice system, and the people involved in it. It is designed for a general audience, with accessible, compelling stories that will appeal to a variety of readers. It is an effective text for college and high school courses about crime and criminality, and provides excellent fodder for discussion in law enforcement and social services training programs or professional development workshops.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9781000817942_What_Is_a_Criminal.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 54,
+  "fields": {
+    "title": "European Social Policy and the COVID-19 Pandemic",
+    "author": "Stefanie Börner|Martin Seeleib-Kaiser",
+    "isbn": "9780197676189",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is an open access title available under the terms of a Creative Commons Attribution-Non Commercial-No Derivatives 4.0 International license (CC BY-NC-ND 4.0). It is free to read at Oxford Academic and offered as a free PDF download from OUP and select open access locations. European Social Policy and the COVID-19 Pandemic: Challenges to National Welfare and EU Policy provides an encompassing and longer-term analysis of the social policy responses of European countries, as well as the European Union (EU), to the challenges of the pandemic. The book asks in which direction the European welfare states, on the one hand, and EU social policy, on the other, are developing as a result of the pandemic with respect to polity, politics, and policy instruments. The issues raised not only concern the future of welfare states in Europe but also EU-level social-policy making and European integration in general.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9780197676189_European_Social_Policy_and_the.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 55,
+  "fields": {
+    "title": "Francia, Band 49",
+    "author": "Deutsches Historisches Institut Paris",
+    "isbn": "9783799581523",
+    "year": 2021,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Der Band enthält 25 Beiträge in deutscher, französischer und englischer Sprache. Die Themenvielfalt reicht von dem sogenannten »Lothar-Kristall« des 10. Jahrhunderts, den Bischöfen Oliba von Vic und Notger von Lüttich, der Rolle des Favoriten am französischen Königshof im späten Mittelalter und dem Lachen im deutsch-französischen Kontext über den Schwarzen Tod im Frankreich Richelieus und revolutionäre Lustspiele im Reich, die Plantagen in Saint-Domingue am Ende des 18. Jahrhunderts bis zu Luxemburgern in der Fremdenlegion. Eigene Beiträge sind der Grenze zwischen Deutschland und Frankreich um 1900 gewidmet, dem Verhältnis Henri Lefebvres zur Kommunistischen Partei, dem Achilleion, – Kaiser Wilhelms Palast auf Korfu –, der luxemburgischen Besatzung in Bitburg nach dem Zweiten Weltkrieg sowie Jacques Chirac und seiner »amitié tardive« für Deutschland.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9783799581523_Francia_Band_49.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 56,
+  "fields": {
+    "title": "Dictionary of International Biography",
+    "author": "Ernest Kay",
+    "isbn": "9780948875410",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "biography",
+    "cover_url": "photos/9780948875410_Dictionary_of_International_Bi.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 57,
+  "fields": {
+    "title": "James Purdy",
+    "author": "Michael Snyder",
+    "isbn": "9780197609729",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is the first biography of a gay American novelist, story writer, and playwright who in the early 1960s was considered a major talent and whose work was praised by Jonathan Franzen, Susan Sontag, Langston Hughes, and Tennessee Williams.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9780197609729_James_Purdy.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 58,
+  "fields": {
+    "title": "The First Populist",
+    "author": "David S. Brown",
+    "isbn": "9781982191092",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "\"A revelatory, timely, and masterful biography of President Andrew Jackson that offers a new perspective on this charismatic figure in the context of American populism--identifying the reasons for his unprecedented appeal as it shows us the man and politician in his full complexity.\"--Amazon",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781982191092_The_First_Populist.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 59,
+  "fields": {
+    "title": "Both/And",
+    "author": "Huma Abedin",
+    "isbn": "9781501194818",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "\"Abedin's stunning memoir garnered an extraordinary amount of media coverage, with appearances on CBS Sunday Morning, the Today show, The Late Show with Stephen Colbert, The View, Late Night with Seth Meyers, Christiane Amanpour, and coverage in many other outlets, including The Washington Post, The New York Times, and NPR. The daughter of Indian and Pakistani intellectuals and advocates, Abedin grew up in the United States and Saudi Arabia and traveled widely. Both/And grapples with family, legacy, identity, faith, marriage, motherhood--and work--with wisdom, sophistication, grace, and clarity.\" --",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781501194818_Both/And.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 60,
+  "fields": {
+    "title": "The Agitators",
+    "author": "Dorothy Wickenden",
+    "isbn": "9781476760742",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Harriet Tubman, strategically brilliant and uncannily prescient, rescued some seventy enslaved people from Maryland's Eastern Shore and shepherded them north along the underground railroad. In Auburn, New York, she entrusted passengers to Martha Coffin Wright, a Quaker abolitionist and leader of the women's rights movement, and Frances A. Seward, whose husband served as New York's governor and senator, and then as secretary of state under Abraham Lincoln. The Agitators opens in the 1820s, when Tubman is enslaved in Maryland and Wright and Seward are young homemakers in upstate New York, bound by law and tradition, and it ends after the Civil War. Many of the most prominent figures of the era-William H. Seward, Lincoln, Frederick Douglass, Elizabeth Cady Stanton, Charles Sumner, John Brown, William Lloyd Garrison-are seen through the discerning eyes of the protagonists. So are the most explosive political debates: about the civil rights of African Americans and women, about the enlistment of Black troops, and about opposing interpretations of the Constitution. Wickenden traces the second American revolution these women fought to bring about and its lasting effects on the country. Profoundly relevant to our own time, The Agitators brings a vibrant, original voice to this transformative period in our history. Book jacket.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781476760742_The_Agitators.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 61,
+  "fields": {
+    "title": "The Huxleys",
+    "author": "Alison Bashford",
+    "isbn": "9780226720111",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "\"This is a long-overdue biography of the Huxleys: the Victorian natural historian T.H. Huxley (\"Darwin's Bulldog\") and his grandson, the scientist, conservationist, and zoologist Julian Huxley. Both T.H. and Julian suffered from depression, thinking and writing about the condition and genetic inheritance in highly curious ways. And between them, they communicated to the world the great modern story of the theory of evolution by natural selection. Because the grandson modeled himself so self-consciously on the grandfather, celebrated historian Alison Bashford writes seamlessly about these omnivorous intellects together, almost as if they were one very long-lived man whose vital dates bookended the colossal shifts in world history from the age of sail to the Space Age, and from colonial wars to world wars to the cold war. The myriad questions that the Huxleys grappled with make them the perfect dynasty-companions for time travel over the age of evolution: What is the nature of time and how old is the Earth itself? What is the connection between human history and natural history? How are humans animals and how are we not? What is the deep past and the distant future of humankind? Can and should we actively seek to improve future generations? What might the planet look like 10,000 years hence? This momentous biography traces the problems and wonders of the modern world that the Huxleys themselves raised, postured, and pondered over lives that spanned the age of evolution\"--",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9780226720111_The_Huxleys.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 62,
+  "fields": {
+    "title": "Microbe Hunters",
+    "author": "Paul de Kruif",
+    "isbn": "9780486849959",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Presents twelve stories of the men who pioneered the study of bacteriology.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9780486849959_Microbe_Hunters.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 63,
+  "fields": {
+    "title": "Making Stars",
+    "author": "Nora Nachumi|Kristina Straub",
+    "isbn": "9781644532645",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Making Stars provides multiple perspectives on the simultaneous emergence of modern forms of life writing and celebrity culture in eighteenth-century Britain. Crossing multiple genres and media, contributors reveal the complex and varied ways in which these modern ways of thinking about individual identity mutually conditioned their emergence during this formative period.",
+    "language": "en",
+    "category": "literary criticism",
+    "cover_url": "photos/9781644532645_Making_Stars.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 64,
+  "fields": {
+    "title": "Kamala's Way",
+    "author": "Dan Morain",
+    "isbn": "9781982175771",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "How did the daughter of two immigrants in segregated California rise to become the nation's first black and first Asian-American vice President? She did it Kamala's way. From her humble beginnings in Oakland through her activist days at Howard University, Kamala Harris grew up to be tough, smart, quick-witted, demanding. You'll meet Harris the young prosecutor, who rose through the treacherous politics of San Francisco, and then of the state, to become the first Black female attorney general in California history. You'll discover Harris the risk-taker, who made the bold decision to run for Senate just five years into her tenure as attorney general. And you'll meet Harris the comeback queen, whose failure as a presidential candidate led to her brilliant behind-the-scenes campaign to land the all-important VP spot on Biden's ticket. Veteran journalist Dan Morain watched her ascent over his twenty-five years covering the state of California and delivers the first in-depth biography of her exceptional journey. Along the way, he reveals what Harris does when no one is looking: falling in love later in life, becoming a stepmother, and caring for little-known members of her longtime and informal political family, who always knew that \"Kamala's Way\" would land her on top. Book jacket.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781982175771_Kamalas_Way.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 65,
+  "fields": {
+    "title": "Salmon P. Chase",
+    "author": "Walter Stahr",
+    "isbn": "9781501199233",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "From an acclaimed, New York Times bestselling biographer, a timely reassessment of Abraham Lincoln's indispensable Secretary of the Treasury: a leading proponent for black rights both before and during his years in cabinet and later as Chief Justice of the United States. Salmon P. Chase is best remembered as a rival of Lincoln's for the Republican nomination in 1860--but there would not have been a national Republican Party, and Lincoln could not have won the presidency, were it not for the vital groundwork Chase laid over the previous two decades. Starting in the early 1840s, long before Lincoln was speaking out against slavery, Chase was forming and leading antislavery parties. He represented fugitive slaves so often in his law practice that he was known as the attorney general for runaway negroes, and he furthered his reputation as an outspoken federal senator and progressive governor of Ohio. Tapped by Lincoln to become Secretary of the Treasury, Chase would soon prove vital to the Civil War effort, raising the billions of dollars that allowed the Union to win the war, while also pressing the president to emancipate the country's slaves and recognize black rights. When Lincoln had the chance to appoint a chief justice in 1864, he chose his faithful rival, because he was sure Chase would make the right decisions on the difficult racial, political, and economic issues the Supreme Court would confront during Reconstruction. Drawing on previously overlooked sources, Walter Stahr sheds new light on a complex and fascinating political figure, as well as on the pivotal events of the Civil War and its aftermath. Salmon P. Chase tells the forgotten story of a man at the center of the fight for racial justice in 19th century America.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781501199233_Salmon_P._Chase.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 66,
+  "fields": {
+    "title": "Eat Your Mind",
+    "author": "Jason McBride",
+    "isbn": "9781982117023",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Her work was exceptionally prescient, taking up complicated conversations about gender, sex, capitalism, and colonialism that continue today. Acker's life was as unruly and radical as her writing. Raised in a privileged but oppressive Upper East Side Jewish family, she turned her back on that world as soon as she could, seeking a life of romantic and intellectual adventure that led her to, and through, many of the most thrilling avant-garde and countercultural moments in America: the births of conceptual art and experimental music; the poetry wars of the 60s and 70s; the mainstreaming of hardcore porn; No Wave cinema and New Narrative writing; Riot grrls, biker chicks, cyberpunks. As this definitive biography shows, Acker was not just a singular writer, she was also a titanic cultural force who tied together disparate movements in literature, art, music, theatre, and film. A feat of literary biography, Eat Your Mind is the first full-scale, authorized life of Acker. .",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781982117023_Eat_Your_Mind.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 67,
+  "fields": {
+    "title": "Brave Companions",
+    "author": "David McCullough",
+    "isbn": "9781668003541",
+    "year": 2022,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "For more than two decades, McCullough has fascinated readers with portraits of exceptional men and women who not only have shaped the course of history but whose stories express much that is timeless about the human condition. From Harriet Beecher Stowe to a young Theodore Roosevelt, the subjects possess a sense of purpose that make for unforgettable reading.",
+    "language": "en",
+    "category": "biography & autobiography",
+    "cover_url": "photos/9781668003541_Brave_Companions.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 68,
+  "fields": {
+    "title": "Geology and Mineral Resources",
+    "author": "R. K. Upadhyay",
+    "isbn": "9789819605989",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book focuses on understanding Earth’s geology, its mineral resources, their exploration, and management of the environment. There are 3 parts and 12 chapters, and they provide an insight to the students of earth sciences. Part I, consisting of initial four chapters, provides snapshots on the Universe, the Earth, and its internal dynamics, and external geological processes. The mineral resources are covered in Part II with 5 chapters, featuring Earth’s elements, metals, minerals, rocks, and the mineral resources. As they are non-renewable, the importance of their scientific exploration, evaluation, mining, beneficiation, optimum utilization, and adverse impact, safety management, and environment are covered in the last 3 chapters in Part III.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9789819605989_Geology_and_Mineral_Resources.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 69,
+  "fields": {
+    "title": "Exposure due to Radionuclides in Food Other than During a Nuclear or Radiological Emergency",
+    "author": "IAEA",
+    "isbn": "9789201113238",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Radionuclides of both natural and human made origin exist throughout the environment. These radionuclides can be transferred to plants and animals that are consumed by humans, thereby resulting in exposure to ionizing radiation and an internal radiation dose. This Safety Report provides information on the observed distributions of concentrations of natural radionuclides in various food products, on the use of ‘total diet’ and other studies to assess ingestion doses, and on radionuclide concentrations in natural mineral waters. Different dose assessment methodologies are presented and the advantages and disadvantages of each is discussed, along with approaches used for managing non-radioactive contaminants in food. This publication is jointly sponsored by the IAEA, the Food and Agriculture Organization of the United Nations and the World Health Organization. It is intended to support Member States in the assessment and management of radionuclides in food, and the alignment of national policies with Requirement 51 of IAEA Safety Standards Series No. GSR Part 3, related to radionuclides in food and drinking water.",
+    "language": "en",
+    "category": "technology & engineering",
+    "cover_url": "photos/9789201113238_Exposure_due_to_Radionuclides_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 70,
+  "fields": {
+    "title": "Determination of Environmental Remediation End States",
+    "author": "IAEA",
+    "isbn": "9789201043238",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Sites with radioactive contamination may require action to protect people and the environment and to enable transition to a different future use. To support environmental management of these sites, this publication presents a process to determine the “end state” of the site to be remediated or being remediated, and implications for the site future use and necessary controls. The approach is intended to assist those responsible for a site in making an informed and transparent decision on what is the mutually agreed end state. It provides a common basis for all stakeholders involved in the decision-making process, who are working on achieving consensus, so that the potential for misunderstanding is reduced.",
+    "language": "en",
+    "category": "technology & engineering",
+    "cover_url": "photos/9789201043238_Determination_of_Environmental.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 71,
+  "fields": {
+    "title": "Science of Synthesis: Knowledge Updates 2023/1",
+    "author": "Guosheng Liu",
+    "isbn": "9783132455078",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The Science of Synthesis Editorial Board, together with the volume editors and authors, is constantly reviewing the whole field of synthetic organic chemistry as presented in Science of Synthesis and evaluating significant developments in synthetic methodology. Several annual volumes updating content across all categories ensure that you always have access to state-of-the-art synthetic methodology.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9783132455078_Science_of_Synthesis_Knowledg.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 72,
+  "fields": {
+    "title": "Space, Philosophy and Ethics",
+    "author": "William H. U. Anderson",
+    "isbn": "9798881901974",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Space is infinitely interesting! Space has both scientific and cultural currency because it has captured the imagination of human beings from ancient times until today. What seemed like science fiction centuries and only decades ago, is now science fact. Technological developments present and on the cusp are putting more and more of space into our hands. That is both exciting and frightening at the same time (think Lovecraft)! This book attempts to speak to the philosophical and ethical issues raised by space. Who owns space? Who should pay for space exploration and what is the impact on human beings on earth today? What happens if we’re not alone in the universe? What is the value and meaning of space exploration? What are the ethical implications of AI and Technology in relation to space exploration (what if they get away from us?!)? Questions! Questions! Questions! The Call for Chapters for this book Space, Philosophy and Ethics read: “For space science people, this conference is a platform to discuss the subconscious philosophical and ethical implications of their research that have been in the back of their minds while researching. For philosophers and non-specialists, it is an opportunity to learn together and struggle to find solutions for the philosophical and ethical quandaries that space science, exploration and technology present to humanity”. The approaches to space seem endless. Physics, as Aristotle discovered, inevitably leads to metaphysics, and metaphysics always have ethical concerns. The book loosely follows this outline. It begins and ends with the metaphysical implications of space, the spiritual, if you will. It leads with poetry. That seems appropriate since while we may ask many questions regarding space, we are likely to find very few answers. Then the book briefly looks at the ethical implications of AI and Technology for space exploration. There are chapters that deal with the material ethics of space commerce and ontology. Telos and Axiology (Value) are also explored. This book hopes to facilitate human struggle with the ethical implications of space rather than presuming to solve all its problems.",
+    "language": "en",
+    "category": "philosophy",
+    "cover_url": "photos/9798881901974_Space_Philosophy_and_Ethics.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 73,
+  "fields": {
+    "title": "Fossil Fuels in the European Union",
+    "author": "Zbigniew Korzeb|Paweł Niedziółka|Kari Liuhto|Agnieszka Bryc|Dorota Niedziółka|Maciej Mróz",
+    "isbn": "9783031567902",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book identifies scenarios for changes in transmission infrastructure, contracting, consumption patterns and fossil fuel financing policies, considering climate goals and the consequences of the conflict in Ukraine. The invasion of Ukraine by the Russian Federation has fundamentally changed the geopolitical situation, approaches to energy security issues, the EU’s energy (in)dependence and the implementation of previously outlined climate policies, including the planned gradual withdrawal from fossil fuels. This book presents the geopolitical architecture, energy mix, energy fuel supply structure, long-term energy policy and financing conditions of the oil and gas and sectors in the EU in the period preceding and following the Russian invasion of Ukraine. The authors consider the date of Russia’s attack on Ukraine as a symbolic caesura marking the beginning of the process of creating a new energy order in the EU. A novel part of the book is the attention it pays to the role of the credit and investment policy of the EU banking sector in relation to carbon-intensive sectors and to the significance of the financial system from the point of view of the effectiveness of international sanctions imposed on the Russian Federation, including, above all, sanctions related to the fossil fuel sector. The book is of interest to researchers and all those interested in learning about these subjects.",
+    "language": "en",
+    "category": "technology & engineering",
+    "cover_url": "photos/9783031567902_Fossil_Fuels_in_the_European_U.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 74,
+  "fields": {
+    "title": "Science of Synthesis: Knowledge Updates 2023/2",
+    "author": "Jean-Marc Campagne|Maria Elena Fernandez Gutierrez|Xuefeng Jiang|Guosheng Liu|Ming Wang",
+    "isbn": "9783132455207",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The Science of Synthesis Editorial Board, together with the volume editors and authors, is constantly reviewing the whole field of synthetic organic chemistry as presented in Science of Synthesis and evaluating significant developments in synthetic methodology. Several annual volumes updating content across all categories ensure that you always have access to state-of-the-art synthetic methodology.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9783132455207_Science_of_Synthesis_Knowledg.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 75,
+  "fields": {
+    "title": "Progress in Landslide Research and Technology, Volume 2 Issue 2, 2023",
+    "author": "Irasema Alcántara-Ayala|Željko Arbanas|David Huntley|Kazuo Konagai|Snježana Mihalić Arbanas|Matjaž Mikoš|Maneesha V. Ramesh|Kyoji Sassa|Shinji Sassa|Huiming Tang|Binod Tiwari",
+    "isbn": "9783031442964",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This open access book provides an overview of the progress in landslide research and technology and is part of a book series of the International Consortium on Landslides (ICL). The book provides a common platform for the publication of recent progress in landslide research and technology for practical applications and the benefit for the society contributing to the Kyoto Landslide Commitment 2020, which is expected to continue up to 2030 and even beyond to globally promote the understanding and reduction of landslide disaster risk, as well as to address the 2030 Agenda Sustainable Development Goals.",
+    "language": "en",
+    "category": "nature",
+    "cover_url": "photos/9783031442964_Progress_in_Landslide_Research.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 76,
+  "fields": {
+    "title": "Biomass in the Bioeconomy",
+    "author": "Jean-Luc Wertz|Philippe Mengal|Serge Perez",
+    "isbn": "9781000735703",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Biomass is the physical basis of the bioeconomy, the renewable segment of the circular economy, and as a CO2-neutral part of the carbon cycle, biomass is an efficient carbon sink. Demand for biomass is increasing worldwide because of its advantages in replacing fossil-based materials and fuels, which presents the challenge of reconciling this increased demand with the sustainable management of ecosystems, including forests and crops. This reference book discusses the role of biomass in the bioeconomy and focuses on the European Union and the United States, the first two regions to develop a bioeconomy strategy with an obvious effect on the bioeconomy developments in the rest of the world. Significant developments in other areas of the world are addressed. Features: Provides strategies for optimal use of biomass in the bioeconomy Defines and details sources, production, and chemical composition of biomass Describes conversion, uses, and sustainability of biomass Biomass in the Bioeconomy: Focus on the EU and US will appeal to an interdisciplinary audience of readers working in the fields of chemical and environmental engineering.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9781000735703_Biomass_in_the_Bioeconomy.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 77,
+  "fields": {
+    "title": "Fundamentals of Sustainable Development",
+    "author": "Niko Roorda",
+    "isbn": "9781040257258",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This completely revised fourth edition of Fundamentals of Sustainable Development provides an accessible and interdisciplinary introduction to sustainable development for undergraduate and postgraduate students across the natural and social sciences, and beyond. It is designed to easily align with structured modules to enable students to work through topics one by one. Building on the previous edition’s user-friendly and comprehensive overview, this edition offers a macro and micro perspective on the challenges of sustainable, holistic development, looking at the impacts on global society in addition to people, planet and profit. It discusses in detail the benefits and limitations of the UN Sustainable Development Goals, linking these to new case studies throughout to provide a broad, international lens and highlighting regionally specific environmental issues, ecological approaches, indigenous perspectives and successful development strategies. The increasing risks of zoonoses and pandemics and their impact on sustainable development are discussed, as human activities within nature rise as a result of climate change. Timely topics on sustainable business are introduced across the book, including carbon footprints, ecolabels, greenwashing, measuring and reporting, degrowth, and personal and professional action points. The book also taps into timely philosophical discussions relating to the Anthropocene, such as climate anxiety, emotional connection to nature and more-than-human debates. For instructors and students, new and revised supplemental resources can be accessed via the book’s website, including PowerPoints, lab-based exercises such as spreadsheet modelling, debate assignments and research tasks. This is the must-have resource for students and lecturers in all disciplines who have an interest in the sustainability of our planet, our human society and global economy.",
+    "language": "en",
+    "category": "business & economics",
+    "cover_url": "photos/9781040257258_Fundamentals_of_Sustainable_De.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 78,
+  "fields": {
+    "title": "Computational and Statistical Methods for Chemical Engineering",
+    "author": "Wim P. Krijnen|Ernst C. Wit",
+    "isbn": "9781000822601",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "In the recent decades, the emerging new molecular measurement techniques and their subsequent availability in chemical database has allowed easier retrieval of the associated data by the chemical analyst. Before the data revolution, most books focused either on mathematical modeling of chemical processes or exploratory chemometrics. Computational and Statistical Methods for Chemical Engineering aims to combine these two approaches and provide aspiring chemical engineers a single, comprehensive account of computational and statistical methods. The book consists of four parts: Part I discusses the necessary calculus, linear algebra, and probability background that the student may or may not have encountered before. Part II provides an overview on standard computational methods and approximation techniques useful for chemical engineering systems. Part III covers the most important statistical models, starting from simple measurement models, via linear models all the way to multivariate, non-linear stochiometric models. Part IV focuses on the importance of designed experiments and robust analyses. Each chapter is accompanied by an extensive selection of theoretical and practical exercises. The book can be used in combination with any modern computational environment, such as R, Python and MATLAB. Given its easy and free availability, the book includes a bonus chapter giving a simple introduction to R programming. This book is particularly suited for undergraduate students in Chemical Engineering who require a semester course in computational and statistical methods. The background chapters on calculus, linear algebra and probability make the book entirely self-contained. The book takes its examples from the field of chemistry and chemical engineering. In this way, it motivates the student to engage actively with the material and to master the techniques that have become crucial for the modern chemical engineer.",
+    "language": "en",
+    "category": "science",
+    "cover_url": "photos/9781000822601_Computational_and_Statistical_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 79,
+  "fields": {
+    "title": "Revenge of the Microbes",
+    "author": "Brenda A. Wilson|Brian T. Ho",
+    "isbn": "9781683670087",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Revenge of the Microbes “What is antibiotic resistance, and why should I care?” Two decades after the first edition of Revenge of the Microbes: How Bacterial Resistance Is Undermining the Antibiotic Miracle warned of the looming threat of antibiotic resistance, it is now upon us. Not only has the spread of antibiotic resistance continued unabated, but the emergence of multidrug-resistant “superbugs” is poised to set medical progress back centuries. Several distinct biological, social, economic, and technological factors have resulted in us only barely keeping pace with these new threats. In this edition of Revenge of the Microbes, the authors detail the intricacies of the antibiotic-microbe arms race. Beginning with a historical perspective on antibiotics and their profound impact on both modern medicine and present-day society, they review our current arsenal against infectious diseases and the various ways pathogens evade or overcome them. The authors examine the practices and policies driving the discovery and development of new antibiotics, what happens to antibiotics once they are released into the environment, how antibiotic-resistant bacteria evolve and spread, and the urgency for finding alternative approaches to combating infections. This discussion of the controversies surrounding antibiotics will empower readers—citizen scientists, policy makers, pharmaceutical researchers, and medical professionals alike—to generate informed opinions on antibiotic usage and stewardship as we contend with fewer effective antibiotics. Reader-friendly and comprehensible, this new edition of Revenge of the Microbes engages a diverse audience of scientists, clinicians, educators, students, lawyers, environmentalists, and public health advocates as it explores the ever-changing landscape of the antibiotic resistance crisis. For anyone interested in antimicrobial resistance (AMR), this is a completely approachable 360-degree view of a very complex topic. The authors don’t dilute the science but manage to deliver it in language and examples that everyone can digest. Don’t miss the “Points to Ponder” at the end of each chapter. These thought-provoking nuggets will inspire creative thinking even in the most experienced AMR authorities. — JEAN B. PATEL, PhD, D(ABMM), Principle Scientist, Scientific Affairs, Microbiology, Beckman Coulter; former Science Team Lead, Antibiotic Resistance Coordination and Strategy Unit, CDC Revenge of the Microbes: How Bacterial Resistance Is Undermining the Antibiotic Miracle, 2nd edition, by Brenda A. Wilson and Brian T. Ho, is an intriguing and detailed narrative of the history of antibiotics, the mechanisms by which bacteria become resistant, and the spread of antibacterial resistance across the globe (Figure). The second edition comes at a critical time. While the attention of the general public, medical communities, and pharmaceutical companies is understandably focused on the development of vaccines and antivirals in response to the COVID-19 pandemic, this book shifts attention back to the ongoing crisis of antibiotic resistance. The authors present readers with points to ponder, summarizing critical facts and discoveries while highlighting important unanswered questions at the conclusion of each chapter. That section provides an opportunity to pause, digest the material, and critically consider the potential impact of the “revenge of the microbes.” Revenge of the Microbes offers an insightful examination of a critical global public health threat. This text succinctly meets the objectives outlined in the preface, focusing on “bridging the informational divide by presenting a more holistic view of antibiotics and antibiotic resistance.” This book offers the opportunity for a general audience, including students, educators, scientists, medical professionals, and concerned citizens, to gain an appreciation for the successes of antibiotics and understand the intricacies of antibiotic use and stewardship. CARUSO I. Revenge of the Microbes: How Bacterial Resistance Is Undermining the Antibiotic Miracle, 2nd Edition. Emerg Infect Dis. 2024;30(11):2453.",
+    "language": "en",
+    "category": "medical",
+    "cover_url": "photos/9781683670087_Revenge_of_the_Microbes.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 80,
+  "fields": {
+    "title": "Germ Theory",
+    "author": "Robert P. Gaynes",
+    "isbn": "9781683673767",
+    "year": 2023,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Germ Theory: Medical Pioneers in Infectious Diseases, SECOND EDITION From the ancient worlds of Hippocrates and Avicenna to the early 20th century hospitals of Paul Ehrlich and Lillian Wald to the modern-day laboratories of François Barré-Sinoussi and Barry Marshall, Germ Theory brings to life the inspiring stories of medical pioneers whose work helped change the very fabric of our understanding of how we think about and treat infectious diseases. In beautifully crafted narratives, author Robert Gaynes describes and presents compelling stories, including How Edward Jenner, the pioneer of vaccination, faced down scores of naysayers How a chance discovery led Louis Pasteur to the idea that the virulence of microbes can be altered How scientists in France, the Netherlands, and Denmark produced penicillin during World War 2 while keeping their efforts hidden from the Nazis The second edition features three new chapters based on interviews with Nobel Laureates François Barré-Sinoussi and Barry Marshall, and former NIAID Director and medical advisor to seven U.S. presidents Anthony Fauci, detailing fascinating accounts from their careers, including their groundbreaking work in the areas of HIV, peptic ulcers, and COVID-19, respectively. Winner of a CHOICE Outstanding Academic Title award for its first edition, Germ Theory is required reading for anyone training or working in the field of infectious diseases or with an interest in microbes, the history of medicine, or how new discoveries can bring about paradigmatic shifts in thinking. Germ Theory, Second Edition was selected as a top community college title for December 2023 by CHOICE: The Top 75 Community College Titles: December 2023 - Choice 360",
+    "language": "en",
+    "category": "medical",
+    "cover_url": "photos/9781683673767_Germ_Theory.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 81,
+  "fields": {
+    "title": "The Pub Lover's Guide to London",
+    "author": "Callum Moy",
+    "isbn": "9781399035538",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A guidebook that pairs London's historical landmarks with nearby pubs, offering a journey through the city's diverse history and vibrant pub culture. Metropolitan London has around 7,000 public houses – an average of 25 pubs per square mile. No other capital city in the world matches this density. It’s not surprising that the London pub is such an institution at home and abroad! Pubs were part and parcel of the expansion of London – that grew to be the world’s largest city by the 1830s. Because pubs are omnipresent in the capital, a pub can always be found near a place of historical significance. This book selects some key moments in the history of London, from Roman times to the modern day, and suggests a popular pub nearby to savour the moment - re-living the history with a drink in hand! The Pub Lover’s Guide to London explains the driving forces behind the most significant moments in the history of London - and the best pubs near to where history was made. In all, 52 great pubs to visit - one for each week of the year!",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781399035538_The_Pub_Lovers_Guide_to_Londo.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 82,
+  "fields": {
+    "title": "Proceedings of the 2024 10th International Conference on Humanities and Social Science Research (ICHSSR 2024)",
+    "author": "Zehui Zhan|Jian Liu|Dina M. Elshenawi|Emma Duester",
+    "isbn": "9782384762774",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is an open access book. 2024 10th International Conference on Humanities and Social Science Research(ICHSSR 2024) will be held on April 26-28, 2024 in Xiamen, China. Except that, ICHSSR 2024 is to bring together innovative academics and industrial experts in the field of Humanities and Social Science Research to a common forum. We will discuss and study about EDUCATION , SOCIAL SCIENCES AND HUMANITIES, INTERDISCIPLINARY STUDIES and other fields. ICHSSR 2023 also aims to provide a platform for experts, scholars, engineers, technicians and technical R & D personnel to share scientific research achievements and cutting-edge technologies, understand academic development trends, expand research ideas, strengthen academic research and discussion, and promote the industrialization cooperation of academic achievements. The conference sincerely invites experts, scholars, business people and other relevant personnel from universities, scientific research institutions at home and abroad to attend and exchange! The conference will be held every year to make it an ideal platform for people to share views and experiences in EDUCATION , SOCIAL SCIENCES AND HUMANITIES, INTERDISCIPLINARY STUDIES and related areas. We sincerely welcome our colleagues worldwide to join us for this conference. We look forward to seeing you in Xiamen for this exciting event!",
+    "language": "en",
+    "category": "education",
+    "cover_url": "photos/9782384762774_Proceedings_of_the_2024_10th_I.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 83,
+  "fields": {
+    "title": "Radicals, Rebels and Royals: A Pub Crawl through British History",
+    "author": "Martyn Routledge|Elspeth Wills",
+    "isbn": "9780008603953",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A beautifully illustrated alternative history book, tracing the history of the British Isles through its landmark pubs with recreations of their pub signs in stunning colour.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9780008603953_Radicals_Rebels_and_Royals_A.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 84,
+  "fields": {
+    "title": "OCR Anthology for Classical Greek AS and A Level: 2024–2026",
+    "author": "Sam Baddeley|Benedict Gravell|Charlie Paterson|Stuart R. Thomson|Neil Treble|Chris Tudor",
+    "isbn": "9781350156654",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is the OCR-endorsed edition covering the Greek AS and A-Level set text prescriptions for 2024–26 giving full Greek text, commentary and vocabulary and a detailed introduction for each text that also covers the prescription to be read in English for A Level. The texts covered are: AS and A Level Groups 1&3 Herodotus, Histories, Book 1, 1–6, 8–13 and 19–22 Plato, Republic, Book 1, 327a to 332b Homer, Iliad, Book 16, lines 20–47, 644–867 Euripides, Hippolytus, 284–361, 391–524 A Level Groups 2&4 Herodotus, Histories, Book 1, 29–45 Plato, Republic, Book 1, 336b to 337a7 and 338a4 to end of 342 Plutarch, Life of Anthony, 76–86 Homer, Iliad, Book 24, lines 349–595 Euripides, Hippolytus, 601–624, 627–633, 638–662, 664–668, 682–731, 885–911, 914–1028, 1030–1035 Aristophanes, Frogs, 1–208 and 830–874 Supplementary resources are available on the Companion Website: https://www.bloomsbury.pub/OCR-editions-2024-2026.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781350156654_OCR_Anthology_for_Classical_Gr.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 85,
+  "fields": {
+    "title": "Media Law and Ethics",
+    "author": "Roy L. Moore|Michael D. Murray",
+    "isbn": "9781040319956",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This fully revised seventh edition provides a thorough introduction to both the legal and ethical considerations relevant to students pursuing careers in media, law and communication. This comprehensive textbook integrates fundamental legal and ethical principles with cases and examples from both landmark moments and recent history. It incorporates discussion of new technologies and media throughout its coverage of core topics such as intellectual property, defamation and commercial speech. This edition introduces readers to media law in comparative international communication and explores topics such as data mining, artificial intelligence and the dark web. Coverage of recent court cases and congressional hearings bring readers up to date on the evolving discussion surrounding Facebook, X (formerly Twitter), TikTok and today’s other major online sources. This hybrid textbook is ideal for undergraduate and graduate courses in media and communication that combine law and ethics. Online resources, including sample syllabi and a test bank, are available at www.routledge.com/9781032612928.",
+    "language": "en",
+    "category": "language arts & disciplines",
+    "cover_url": "photos/9781040319956_Media_Law_and_Ethics.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 86,
+  "fields": {
+    "title": "Africa 2024–2025",
+    "author": "Lawrence R. Sullivan",
+    "isbn": "9781538185797",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The World Today Series: Africa provides students with vital information on all countries on the African continent through a thorough and expert overview of political and economic histories, current events, and emerging trends. Each country is examined through the following sections: Basic Facts; Land and People; The Past: Political and Economic History; The Present: Contemporary Issues; and The Future. In addition to country chapters, the book features extended essays on Africa’s Historical Background and the Colonial Period. The combination of factual accuracy and up-to-date detail along with its informed projections make this an outstanding resource for researchers, practitioners in international development, media professionals, government officials, potential investors and students. The content is thorough yet perfect for a one-semester introductory course or general library reference. Available in both print and e-book formats and priced low to fit student and library budgets.",
+    "language": "en",
+    "category": "reference",
+    "cover_url": "photos/9781538185797_Africa_20242025.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 87,
+  "fields": {
+    "title": "Wirral Pubs",
+    "author": "Les Jones",
+    "isbn": "9781398114227",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A fascinating tour of the Wirral’s pub scene, charting the area’s taverns, alehouses and watering holes, from past centuries to more recent times.",
+    "language": "en",
+    "category": "cooking",
+    "cover_url": "photos/9781398114227_Wirral_Pubs.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 88,
+  "fields": {
+    "title": "Gaza Nakba 2023–2024",
+    "author": "Hiroyuki Suzuki|Keiko Sakai",
+    "isbn": "9789819748686",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book is one of the first edited volumes on the current Israel/Palestine conflict—the Gaza Nakba 2023–24. It contains contributions from both young post-doctoral researchers and more seasoned scholars from Japan. These authors, with their rich experience of field work in the region and their interdisciplinary approaches, are able to provide critical analyses on the current breakdown of humanitarian norms, the dysfunctional state of international organizations, and the breakdown of conflict management and peace-building. The unique viewpoints of Japanese scholars are shared regarding their understanding of the critical developments in Gaza since October 7, 2023. Further, these chapters analyze the background of the conflict, focusing on popular sentiments, national identity, and historical memory in Israel/Palestine, and the importance of space and land as national and cultural symbols, using rich and updated written and visualdata from the region. This work significantly challenges prevailing arguments, as it avoids stereotyped understandings of the persistence of religious and ethnic hatred, the proxy relationships of global powers (e.g., USA) and regional ones (Iran), and regional rivalries over geopolitical and economic interests in the Middle East. Such arguments as these provide no more than a quick divide-and-rule type of solution, encouraging merely superficial diplomatic coordination among the major global powers rather than a real solution. Alternatively, this book provides a new framework for understanding the structure of the conflict, making way for solving the problem from the popular level, and delving deeply into reconsideration of the durability or non-durability of the state system in the Middle East and a Western originated liberal international order and norm in general. The book also discloses the severe reality that human rights in the Global South are often neglected. In this sense, the purpose of this work is to disclose the significance of the Gaza War as an iconic event which reveals all the contradictions, inequalities and injustices in a global historical context. This book is essential for anyone who wants a fresh and expert consideration of the Israel-Palestine-Gaza issue, which avoids the often parochial stereotypes that attend it in the West, and which views it through a global lens. Juan Cole, Richard P. Mitchell Collegiate Professor of History, University of Michigan",
+    "language": "en",
+    "category": "political science",
+    "cover_url": "photos/9789819748686_Gaza_Nakba_20232024.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 89,
+  "fields": {
+    "title": "East and Southeast Asia 2023–2024",
+    "author": "James E. Hoare",
+    "isbn": "9781538176092",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The World Today Series: East & Southeast Asia provides historical background on the evolution of Modern East & Southeast Asia to help readers gain a thorough understanding of contemporary developments in this vital region. Broad introductory regional chapters are followed by sections on each country in the region. The combination of factual accuracy and up-to-date detail make this an outstanding resource for researchers, practitioners in international development, media professionals, government officials, potential investors, and students to understand the immediate background of contemporary developments.",
+    "language": "en",
+    "category": "education",
+    "cover_url": "photos/9781538176092_East_and_Southeast_Asia_20232.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 90,
+  "fields": {
+    "title": "East and Southeast Asia 2024–2025",
+    "author": "James E. Hoare",
+    "isbn": "9781538185834",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The World Today Series: East & Southeast Asia provides historical background on the evolution of Modern East & Southeast Asia to help readers gain a thorough understanding of contemporary developments in this vital region. Broad introductory regional chapters are followed by sections on each country in the region. The combination of factual accuracy and up-to-date detail make this an outstanding resource for researchers, practitioners in international development, media professionals, government officials, potential investors, and students to understand the immediate background of contemporary developments.",
+    "language": "en",
+    "category": "education",
+    "cover_url": "photos/9781538185834_East_and_Southeast_Asia_20242.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 91,
+  "fields": {
+    "title": "London's Lost Pubs",
+    "author": "Sam Cullen",
+    "isbn": "9781399038300",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The humble pub has played a central role in London's history across centuries. Over time, many old favourites have been lost because of the ever-evolving landscape of the city and changing trends and habits. For the first time in print, Sam Cullen looks back at a selection of 200+ London pubs which have closed in the last twenty-five years. Thanks to extensive research taking in newspaper articles, historic books and even conversations with former patrons of these establishments, this book presents some of the most memorable London boozers we've lost in recent years. London’s Lost Pubs leads readers on a borough-by-borough guided tour of the city, visiting everything from the old haunts of Chelsea bohemians and City workers to favourites on legendary London streets from the Old Kent Road to Fleet Street. Each featured pub’s listing includes interesting facts and quirky trivia which will bring a smile to readers’ faces, while also reminding just how much London pubs can reveal about the city’s history. Along the way, readers will encounter pubs which boasted pets, pools and even pythons! The book is also illustrated throughout with both archive and current photos. London’s Lost Pubs is an essential read for fans and scholars of local history as well as honouring and celebrating countless colourful pubs which have played a pivotal role in the city’s life. * ‘A fascinating directory of the all-too-many pubs this city has lost’ - Londonist * ‘Despite the sad subject matter, this story of London pubs now gone is a thoroughly absorbing read. The accounts and anecdotes are wittily told and bring to mind just how varied, diverse and wonderful London pubs are.’ - Jane Jepchote, Chair of London Pubs Group, CAMRA",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781399038300_Londons_Lost_Pubs.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 92,
+  "fields": {
+    "title": "Latin America 2024–2025",
+    "author": "William H. Beezley",
+    "isbn": "9781538185858",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The World Today Series: Latin America offers the latest available economic, demographic, political, and cultural information. Including solid statistical data expressing freedom, violence, and governmental orientation. Consideration is given to the evolving relationships with the United States and other Latin American nations. Revisions have also addressed new historical interpretations, for example, of the history of Mexico and latest political changes, for example, in Venezuela and Cuba. Maps, charts, and photographs provide extensive visual expressions of the region, its geography, peoples, and cultures, in particular public architecture, agricultural technology, specular geology, and striking diversity. The images offer a narrative of the multiplicity of peoples as demonstrated in their clothing, economic and everyday activities, their physical surroundings. Consequently, the narrative combines global economics, national politics, and daily social life throughout the region. The chapters can be read as individual histories for each of the countries, within the context created by contrasts and similarities with the other nations of Latin America.",
+    "language": "en",
+    "category": "reference",
+    "cover_url": "photos/9781538185858_Latin_America_20242025.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 93,
+  "fields": {
+    "title": "The Routledge Handbook of Urban Cultural Planning",
+    "author": "Rana Amirtahmasebi|Jason Schupbach",
+    "isbn": "9781040223925",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This book provides a manual for planning for arts and culture in cities, featuring chapters and case studies from Africa, the Americas, Australasia, the Middle East, South and East Asia, and more. The handbook is organized around seven themes: arts and planning for equity and social development; incorporating culture in urban planning; the intersection of creative and cultural industries and tourism planning; financing; public buildings, public space and public art; cultural heritage planning; and culture and the climate crisis. Urban planners are often tasked with preserving and attracting new art and culture to a city, but there are no common rules on how practitioners accomplish this work. This handbook will be an invaluable resource for city planners and designers, cultural workers, elected officials, artists, and social justice workers and advocates seeking to integrate creativity and culture into urban planning.",
+    "language": "en",
+    "category": "architecture",
+    "cover_url": "photos/9781040223925_The_Routledge_Handbook_of_Urba.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 94,
+  "fields": {
+    "title": "Russia and Eurasia 2024–2025",
+    "author": "Navruz Nekbakhtshoev",
+    "isbn": "9781538185896",
+    "year": 2024,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The World Today Series: Russia and Eurasia deals with twelve sovereign states that became independent following the collapse of the Soviet Union in December 1991. Approximately one-third of the book is devoted to Russia. The remainder of the book is comprised of separate chapters on Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine and Uzbekistan. The text focuses heavily on recent economic and political developments within these twelve states. Each country chapter offers descriptions and overviews of the respective governmental institutions, key leaders, civil society dynamics, and economic conditions within each state. It supplements this focus with shorter sections dealing with historical developments, demographics, foreign policy, and cultural elements. Each chapter concludes with brief projections of future developments within each state. The combination of factual accuracy and up-to-date detail along with its informed projections make this an outstanding resource for students, researchers, practitioners in international development, media professionals, government officials, and potential investors.",
+    "language": "en",
+    "category": "history",
+    "cover_url": "photos/9781538185896_Russia_and_Eurasia_20242025.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 95,
+  "fields": {
+    "title": "Writers Directory",
+    "author": "NA NA",
+    "isbn": "9781349036509",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "literary criticism",
+    "cover_url": "photos/9781349036509_Writers_Directory.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 96,
+  "fields": {
+    "title": "The Reader's Adviser",
+    "author": "Fred Kaplan|Paula T. Kaufman|Barbara Ann Chernow|Xerox Education Publications|George A. Vallasi|R. R. Bowker Company (1870-1965).",
+    "isbn": "9780835223157",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "books and reading",
+    "cover_url": "photos/9780835223157_The_Readers_Adviser.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 97,
+  "fields": {
+    "title": "Die Akte/n",
+    "author": "Peter Plener|Burkhardt Wolf",
+    "isbn": "9783662702420",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Was in der Welt gelten oder als Tatbestand verbürgt sein soll, muss aktenkundig sein, denn die Behörden der ›verwalteten Welt‹ entscheiden über unsere Wirklichkeit, Identität und Handlungsmacht im ›Medium‹ der Akten. Diese stiften also zuletzt Zusammenhänge zwischen Amt und Welt, zunächst aber zwischen unterschiedlichsten Schriftstücken – egal, ob in Gestalt von Kästchen und Kisten, von Bündeln, Kladden oder Ordnern, zunehmend in Form von verschalteten Datensätzen und elektronischen Verweissystemen. Akten lassen sich deshalb als Medien verstehen, die unterschiedliche Formen der Inskription miteinander verbinden. Acta sind Arbeitsmittel, Handlungen und zugleich Medien der (Auto-)Protokollierung eines administrativen Vorgangs, in welcher Doppelfunktion sie die Rechenschaftspflicht der Verwaltungen ebenso zu erfüllen helfen, wie sie eine historiographische Dokumentation ihres Tuns ermöglichen. Als Aufschreibesystem mit spezifischem Prozesscharakter, das unablässige Rekursion mit weitreichenden Handlungsketten verbindet, waren Akten seit ihrem Aufkommen in der Frühneuzeit eine medientechnische Innovation – und sind es noch heute, im Zeitalter ihrer ›Digitalisierung‹. Dabei sind diese keineswegs nur Sache der Verwaltung: Die Geschichten der Akte/n in diesem (Open Access-)Band der AdminiStudies handeln auch von einer Mediengeschichte der Migration der ›Aktenmäßigkeit‹ in pädagogische oder medizinische, politische, militärische oder wirtschaftliche Organisationen sowie technische Bereiche und künstlerisch-literarische Domänen.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9783662702420_Die Akte/n.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 98,
+  "fields": {
+    "title": "Literatur als Fach in der sowjetischen Schule der 1920er und 1930er Jahre. Zur Bildung eines literarischen Kanons",
+    "author": "Erna Malygin",
+    "isbn": "9783863090715",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "canon (literature)",
+    "cover_url": "photos/9783863090715_Literatur_als_Fach_in_der_sowj.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 99,
+  "fields": {
+    "title": "Zauberberg-Handbuch",
+    "author": "Anke Detken|Tom Kindt|Kai Sina",
+    "isbn": "9783476059871",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Thomas Manns „Der Zauberberg“ (1924) ist ein Meisterwerk der Romankunst und ein Hauptbeitrag der deutschsprachigen Literatur zur internationalen Moderne. Das Handbuch stellt Grundlageninformationen über Entstehung und Form des Romans zusammen, analysiert Themen, Strukturen und Gattungstraditionen, informiert über die weit verzweigte Rezeption und stellt exemplarisch neuere Forschungszugänge dar. Inhaltliche Schwerpunkte bilden die brisanten politischen Implikationen des Romans und seiner Genese, die programmatische Intertextualität sowie die Internationalität der „Zauberberg“-Rezeption.",
+    "language": "en",
+    "category": "literary criticism",
+    "cover_url": "photos/9783476059871_Zauberberg-Handbuch.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 100,
+  "fields": {
+    "title": "Chiffre 2000, neue Paradigmen der Gegenwartsliteratur",
+    "author": "Corina Caduff|Ulrike Vedder",
+    "isbn": "9783770541782",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Chiffre 2000 steht für Abschiede und Neubildungen, für Übergänge und Transformationen von Sujets und Schreibverfahren in der aktuellen Gegenwartsliteratur. Deren thematische und poetische Tendenzen werden hier unter der Leitfrage neuer Paradigmen diskutiert, die ja nicht nur im literaturwissenschaftlichen Diskurs formiert werden, der über Texte spricht, sondern auch in den literarischen Texten selbst. So fällt das Phänomen verbreiteter Mythisierungen bzw. Remythisierungen ebenso auf wie die stark zunehmende Literarisierung von Neuen Medien und von Biowis-senschaften, die auf Innovationen anderer Medien und Disziplinen reagiert. Zudem ist, angesichts der seit einigen Jahren neu erfolgenden literarischen Auseinandersetzung mit der deutschen und europäischen Geschichte, die Frage nach dem Ende der Nachkriegsliteratur noch einmal neu zu stellen. Auf diesen vier Schauplätzen hat die Literatur von Harry Mulisch, Marcel Beyer, Rainald Goetz, Durs Grünbein, Tanja Dückers, W. G. Sebald, Sarah Kane, Jeffrey Eugenides, Joane Rowlings, Elfriede Jelinek, Aris Fioretos u.v.a. ihren Auftritt.",
+    "language": "en",
+    "category": "computers",
+    "cover_url": "photos/9783770541782_Chiffre_2000_neue_Paradigmen_.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 101,
+  "fields": {
+    "title": "Horaz und Celtis",
+    "author": "Ulrike Auhagen|Eckard Lefèvre|Eckart Schäfer",
+    "isbn": "9783823357919",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "germany",
+    "cover_url": "photos/9783823357919_Horaz_und_Celtis.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 102,
+  "fields": {
+    "title": "Writers' & Artists' Yearbook 2025",
+    "author": "Bloomsbury Publishing",
+    "isbn": "9781399411776",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "'What is your best investment? Buying a copy of the Writers' & Artists' Yearbook.' Kimberley Chambers This bestselling Writers' & Artists' Yearbook contains a wealth of information on all aspects of writing and becoming a published author, plus a comprehensive directory of media contacts. Packed with practical tips, it includes expert advice from renowned authors and industry insiders on: - submitting to agents and publishers - writing non-fiction and fiction across different genres and formats - poetry, plays, broadcast media and illustration - marketing and self-publishing - legal and financial information - writing prizes and festivals. Revised and updated annually, the Yearbook includes thousands of industry contacts and over 80 articles from writers of all forms and genres, including award-winning novelists, poets and playwrights, scriptwriters for TV, radio and videogames. If you want to find a literary or illustration agent or publisher, would like to self-publish or to crowdfund your creative idea then this Yearbook will help you. New content for this edition includes articles on If at first you don't succeed ... by Jessica Irena Smith, The importance of story development by Greg Mosse, Writing for readers by Rachel McLean, Creating a poetry comic by Chrissy Williams, Ghosting: writing other people's stories by Gillian Stern, Romantic motifs by Sue Moorcroft, How a publicist can help you by Hannah Hargrave, Writing across forms by Rob Gittins, Pitching your travel ideas by Jen & Sim Benson, The hybrid author by Simon McLeave. 'The wealth of information is staggering.' The Times",
+    "language": "en",
+    "category": "language arts & disciplines",
+    "cover_url": "photos/9781399411776_Writers__Artists_Yearbook_2.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 103,
+  "fields": {
+    "title": "AP English Literature and Composition Premium, 2025: Prep Book with 8 Practice Tests + Comprehensive Review + Online Practice",
+    "author": "George Ehrenhaft|Michael Schanhals",
+    "isbn": "9781506291833",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Be prepared for exam day with Barron’s. Trusted content from AP experts! Barron’s AP English Literature and Composition Premium, 2025 includes in‑depth content review and practice. It’s the only book you’ll need to be prepared for exam day. Written by Experienced Educators Learn from Barron’s‑‑all content is written and reviewed by AP experts Build your understanding with comprehensive review tailored to the most recent exam Get a leg up with tips, strategies, and study advice for exam day‑‑it’s like having a trusted tutor by your side Be Confident on Exam Day Sharpen your test‑taking skills with 8 full‑length practice tests–5 in the book, including a diagnostic test to target your studying, and 3 more online–plus detailed answer explanationsand sample essays Strengthen your knowledge with key advice for answering multiple-choice questions and writing a polished essay Reinforce your learning with practice by tackling dozens of sample questions and mini-workout exercises that cover all units on the AP English Literature and Composition exam Brush up on the literary terms you should know for test day with a clear and comprehensive glossary Robust Online Practice Continue your practice with 3 full‑length practice tests on Barron’s Online Learning Hub Simulate the exam experience with a timed test option Deepen your understanding with detailed answer explanations and expert advice Gain confidence with scoring to check your learning progress",
+    "language": "en",
+    "category": "language arts & disciplines",
+    "cover_url": "photos/9781506291833_AP_English_Literature_and_Comp.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 104,
+  "fields": {
+    "title": "Children's Writers' & Artists' Yearbook 2025",
+    "author": "Bloomsbury Publishing",
+    "isbn": "9781399411790",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Foreword by Alice Oseman, creator of the million-copy bestselling Heartstopper books. 'This is not a book, it is a sky filled with possibility, so let its wisdom lift you and soar!' Joseph Coelho, Children's Laureate Celebrating its 21st edition, this indispensable Children's Writers' & Artists' Yearbook provides everything you need to know to get your work noticed. With thousands of up-to-date contacts and inspiring articles from dozens of successful writers, illustrators and industry insiders, it is the ultimate resource on writing and publishing for children of all ages. Packed with insights and practical tips, it provides expert advice on: - submitting to agents and publishers - writing non-fiction and fiction across genres and formats - poetry, plays, broadcast media and illustration - self-publishing - copyright, finances and contracts - marketing, prizes and festivals - and much, much more ... New content in this edition include articles on Your Author Brand by Tom Palmer, Getting Published by Hannah Gold, Writing with empathy by Camilla Chester, What an indie bookshop can offer authors by Carrie & Tim Morris. 'Between the covers of this book is everything you need to know to get published.' Julia Donaldson",
+    "language": "en",
+    "category": "language arts & disciplines",
+    "cover_url": "photos/9781399411790_Childrens_Writers__Artists.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 105,
+  "fields": {
+    "title": "Fodor's Essential Ireland 2025",
+    "author": "Fodor's Travel Guides",
+    "isbn": "9781640977563",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "Whether you want to hike through Killarney National Park, visit the Cliffs of Moher, or experience the thriving arts and music scene in Dublin, the local Fodor's travel experts in Ireland are here to help! Fodor's Ireland: with Belfast and Northern Ireland guidebook is packed with maps, carefully curated recommendations, and everything else you need to simplify your trip-planning process and make the most of your time. This new edition has been fully-redesigned with an easy-to-read layout, fresh information, and beautiful color photos. Fodor's “Essential” guides have been named by Booklist as the Best Travel Guide Series of 2020! Fodor's Ireland 2025 travel guide includes: AN ILLUSTRATED ULTIMATE EXPERIENCES GUIDE to the top things to see and do MULTIPLE ITINERARIES to effectively organize your days and maximize your time MORE THAN 30 DETAILED MAPS and a FREE PULL-OUT MAP to help you navigate confidently COLOR PHOTOS throughout to spark your wanderlust! HONEST RECOMMENDATIONS FROM LOCALS on the best sights, restaurants, hotels, nightlife, shopping, performing arts, activities, side-trips, and more PHOTO-FILLED “BEST OF” FEATURES on “the Wild Atlantic Way,” “Historical Sights to visit in Ireland,” “Ireland's Top 10 Natural Wonders,” and more TRIP-PLANNING TOOLS AND PRACTICAL TIPS including when to go, getting around, beating the crowds, and saving time and money HISTORICAL AND CULTURAL INSIGHTS providing rich context on the local people, politics, art, architecture, cuisine, music, geography and more SPECIAL FEATURES on “Top Festivals and Events,” “What to Watch and Read Before You Visit,” and “What to Eat and Drink” LOCAL WRITERS to help you find the under-the-radar gems UP-TO-DATE COVERAGE ON: Dublin, Kerry, Clare, Galway, Cork, Belfast, Northern Ireland, the Aran Islands, the Ring of Kerry, The Giants Causeway, the Wild Atlantic Way, Killarney, Connemara, Trinity College, Dublin's museums, the Book of Kells, Dingle, Donegal, Irish Castles and Monasteries, Irish Design, Irish Festivals and events, and more. Planning on visiting England? Check out Fodor's Essential England, Fodor's London, and Fodor's Essential Great Britain. *Important note for digital editions: The digital edition of this guide does not contain all the images or text included in the physical edition. ABOUT FODOR'S AUTHORS: Each Fodor's Travel Guide is researched and written by local experts. Fodor's has been offering expert advice for all tastes and budgets for over 80 years. For more travel inspiration, you can sign up for our travel newsletter at fodors.com/newsletter/signup, or follow us @FodorsTravel on Facebook, Instagram, and Twitter. We invite you to join our friendly community of travel experts at fodors.com/community to ask any other questions and share your experience with us!",
+    "language": "en",
+    "category": "travel",
+    "cover_url": "photos/9781640977563_Fodors_Essential_Ireland_2025.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 106,
+  "fields": {
+    "title": "Proceedings of the 2025 4th International Conference on Social Sciences and Humanities and Arts (SSHA 2025)",
+    "author": "Sun Jing|Sun Hefei|Liu Shuli|Ren Xianpin|Cuneyt Birkok",
+    "isbn": "9782384764327",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "This is an open access book. With the progress of social civilization, social science and its research are becoming more and more important. Theoretically and practically, the study of social phenomena and social problems and the development of prosperous social sciences are the eternal themes of human beings. At present, social science research and its results can hardly meet the needs of social development, especially the unscientific evaluation of social science results, which has aroused great concern from all walks of life, and has produced dirt and questions on social science, thus affecting the proper development of social science. Max Weber once said that \"the most important function of social science in modern times is to keep people \"clear-headed\" and to resist the delusions of \"prophetic legislators\". \" Humanities and arts are the process of perceiving, realizing, thinking, manipulating, and expressing objective or subjective objects through capturing and excavating, feeling and analyzing, integrating and applying, or displaying the stage results in the form obtained through feeling (seeing, hearing, smelling, touching). The social sciences and humanities and arts contain content that will directly affect our lives and the way society functions. And by reacting to today's increasingly intricate problems and situations through systematic and professional discussions, they will further contribute to the improvement of institutions and the development of society. By thinking about issues and looking at problems and the world from different perspectives by putting the two together, it may be possible to have more comprehensive, appropriate, and better responses; for example, the development of laws requires a deeper understanding of the environment in which they are implemented; international trade requires a certain understanding of the customs of different countries; and the development of tax and economic policies requires a certain understanding of the population, consumer demand, etc.",
+    "language": "en",
+    "category": "social science",
+    "cover_url": "photos/9782384764327_Proceedings_of_the_2025_4th_In.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 107,
+  "fields": {
+    "title": "Paperbound Books in Print",
+    "author": "Unknown Author",
+    "isbn": "9780835213301",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "",
+    "language": "en",
+    "category": "reference",
+    "cover_url": "photos/9780835213301_Paperbound_Books_in_Print.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 108,
+  "fields": {
+    "title": "Carl Hanser Verlag as an intermediary of Polish literature in West Germany between 1945 and 1990",
+    "author": "Daniel Pietrek",
+    "isbn": "9783847018230",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "The Munich-based Carl Hanser Verlag was one of the most important publishers in the 1950s and 1960s when it came to promoting Polish literature in West Germany. The fact that – from the 1950s onwards (after a period of German classics' editions) – the Hanser Verlag focused also on Polish literature seems to be baffling. However, this decision was all the more important, because Polish literature in translation often built bridges to Poland's neighbors after the end of World War II and paved the way for a new phase in the German-Polish dialogue aimed at reconciliation. This publishing policy was maintained over the following decades. Daniel Pietrek analyzes and describes this unique cultural transfer in his study.",
+    "language": "en",
+    "category": "literary criticism",
+    "cover_url": "photos/9783847018230_Carl_Hanser_Verlag_as_an_inter.jpg"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 109,
+  "fields": {
+    "title": "Carol Gilligan and the Search for Voice",
+    "author": "Bill Cole",
+    "isbn": "9781433843549",
+    "year": 2025,
+    "total": 1,
+    "stock": 1,
+    "date_arrived": "2025-06-27",
+    "description": "A biography of the life and work of groundbreaking developmental psychologist Carol Gilligan, intended for high school age readers, part of the APA's Extraordinary Women in Psychology Series. Carol Gilligan has devoted her life to discovering, uncovering, and recovering voices belonging to girls and women, as well as boys and men. Through her work, she has played an enormous role in reconceptualizing traditionally held views on moral and identity development in young people, most prominently in her landmark 1982 book detailing her ethic of care model, In a Different Voice (coined by Harvard University Press as “The little book that started a revolution”). Drawing on source material that includes interviews with Gilligan as well as her own writings in books and articles, this book offers young readers not only the opportunity to learn about a pioneering psychologist and her momentous work, but also for them to consider the potential power of their own voices as they go forward in life.",
+    "language": "en",
+    "category": "young adult nonfiction",
+    "cover_url": "photos/9781433843549_Carol_Gilligan_and_the_Search_.jpg"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 1,
+  "fields": {
+    "title": "Allure Jazz: Skip Moy Quintet – Classic standards",
+    "event_date": "2025-06-28",
+    "start_time": "17:00:00",
+    "end_time": "18:00:00",
+    "description": "Discover the allure of timeless melodies with Skip Moy Quintet, reviving songs from the forgotten past."
+  }
+},
+{
+  "model": "events.event",
+  "pk": 2,
+  "fields": {
+    "title": "Cantomania: Summer of Love",
+    "event_date": "2025-06-29",
+    "start_time": "22:00:00",
+    "end_time": "23:00:00",
+    "description": "Cantomania all-star DJs Steffunn, Fabsabs and Deanź feature, with a special guest appearance by Crystal from famed Cantopop icons Hotcha!"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 3,
+  "fields": {
+    "title": "Eaton Radio Relaunch Party w/ Nativesun (Black Rave Culture/ DC)",
+    "event_date": "2025-07-01",
+    "start_time": "19:00:00",
+    "end_time": "22:00:00",
+    "description": "Eaton Radio est. in 2018 celebrates the launch of its new website by bringing Black Rave Culture's and Eaton Radio DC resident Nativesun"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 4,
+  "fields": {
+    "title": "[Summer Camp 2025] International Leadership Youth Camp",
+    "event_date": "2025-07-02",
+    "start_time": "20:00:00",
+    "end_time": "21:00:00",
+    "description": "Get ready for an epic summer adventure where you'll enjoy non-stop fun, make lifelong friends, and create memories"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 5,
+  "fields": {
+    "title": "Certified Chief Sustainability Officer - Self Study",
+    "event_date": "2025-07-04",
+    "start_time": "20:00:00",
+    "end_time": "22:00:00",
+    "description": "Earn the most prestigious and respected Sustainability certification course. Self-Study at your own pace and submit assignment."
+  }
+}
+]

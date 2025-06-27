@@ -1,0 +1,67 @@
+{% extends "base.html" %} 
+{% block title %} Details {% endblock %}
+{% block content %}
+{% load static %}
+{% load humanize %}
+
+<!-- Hero Section -->
+<section class="hero">
+
+<div class="container">
+<h2>{{ listing.title }}</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="image-container">
+                {% if listing.cover_url %}
+                <img src={{ listing.cover_url.url }} style="width: 240px; height: auto;" >
+                {% else %}
+                <img src={% static 'img/book.jpeg' %}  style="width: 240px; height: auto;">
+                {% endif %}
+
+                {% if user.is_authenticated %}
+                  {% if user.is_staff %}
+                   <button class="btn btn-danger" data-url="{% url 'books:delete' listing.id %}" data-id="{{ listing.id }}" data-toggle="modal" data-target="#deleteConfirmModal" >Delete</button>
+                  {% else %}
+                    <a href="{% url 'books:borrow' listing.id %}" class="btn btn-success">Borrow</a>
+                  {% endif %}
+                {% endif %}
+              </div>
+        </div>
+        <div class="col-md-8">
+            <div class="text-list">
+                <ul>
+                    <li><strong>Author  </strong>: {{ listing.author | title }}</li>
+                    <li><strong>ISBN    </strong>: {{ listing.isbn }}</li>
+                    <li><strong>Publish Year</strong>: {{ listing.year }}</li>      
+                    <li><strong>Language</strong>: {{ listing.language | title }}</li>
+                    <li><strong>Category</strong>: {{ listing.category | title }}</li>
+                    <li><strong>Description </strong>: {{ listing.description }}</li>      
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="modal fade" id="deleteConfirmModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to delete this book ?</p>
+            <a id="confirmDeleteBtn" class="btn btn-danger" href="#">
+              Yes
+            </a>
+            <button class="btn btn-info" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section> 
+
+{% endblock content  %}

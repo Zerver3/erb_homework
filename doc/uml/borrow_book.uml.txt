@@ -1,0 +1,20 @@
+@startuml BookBorrowFlow
+title Book Borrowing Process Flow
+
+start
+:Search Books (books:search);
+:View Book Details (books:about);
+if (Available?) then (yes)
+  :Click Borrow;
+  if (Logged in?) then (no)
+    :Redirect to Login (accounts:login);
+  else (yes)
+    :Process Borrow (books:borrow);
+    :Update Dashboard (accounts:dashboard);
+  endif
+else (no)
+  :Show "Not Available";
+endif
+
+stop
+@enduml

@@ -1,0 +1,57 @@
+{% extends "base.html" %} 
+{% block title %} {% endblock title %}
+{% block content %}
+
+<h1> records/listing </h1>
+
+    <section id="dashboard" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Welcome </h2>
+
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>User</th>
+                  <th>Return Date</th>
+                  <th>Status</th>
+
+                </tr>
+              </thead>
+              
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>War</td>
+                  <td>Peter</td>
+                  <td>23 Mar 2001</td>
+                  <td>Borrowed</td>
+                  <td>
+                    <a class="btn btn-light" href="#">View Listing</a>
+                    <button class="btn btn-danger" data-url="#" data-toggle="modal" data-target="#deleteConfirmModal" data-id="{{ contact.id}}">Delete</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Rise of Germany</td>
+                  <td>Ken Lau</td>
+                  <td>11 Apr 2011</td>
+                  <td>Overdue</td>
+                  <td>
+                    <a class="btn btn-light" href="#">View Listing</a>
+                    <button class="btn btn-danger" data-url="#" data-toggle="modal" data-target="#deleteConfirmModal" data-id="{{ contact.id}}">Delete</button>
+                  </td>
+                </tr>
+
+            </tbody>  
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock content  %}

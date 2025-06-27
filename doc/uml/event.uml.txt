@@ -1,0 +1,17 @@
+@startuml EventManagementFlow
+title Event Management Process
+
+start
+:Access Event Form (events:edit);
+:Fill Event Details;
+:Submit Form (events:add);
+if (Valid?) then (yes)
+  :Save Event;
+  :Show on Homepage;
+else (no)
+  :Show Errors;
+  :Return to Form;
+endif
+
+stop
+@enduml

@@ -1,0 +1,136 @@
+{% extends "base.html" %} 
+{% block title %}Edit Account{% endblock title %}
+{% block content %}
+{% load static %}
+
+<!-- Hero Section -->
+<section class="hero">
+
+    {% if user.is_staff %}
+      {% if booklists %}    
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2> New books arrive recently </h2> 
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>ISBN</th>
+                  <th>Language</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for listing in booklists %}
+                <tr>
+                  <td>{{ listing.title }}</td>
+                  <td>{{ listing.author }}</td>
+                  <td>{{ listing.isbn }}</td>
+                  {% if listing.language in language_choices %}
+                  {%  for key, value in language_choices.items %}
+                  {% if key == listing.language %}
+                  <td>{{ value }}</td>
+                  {% endif %}
+                  {% endfor %}
+                  {% else %}
+                  <td></td>
+                  {% endif %}
+                  {% if listing.category in category_choices %}
+                  {%  for key, value in category_choices.items %}
+                  {% if key == listing.category %}
+                  <td>{{ value }}</td>
+                  {% endif %}
+                  {% endfor %}
+                  {% else %}
+                  <td>{{ listing.category | title }}</td>
+                  {% endif %}
+
+                </tr>
+                {% endfor %}
+            </tbody>  
+            </table>
+          </div>
+        </div>
+
+      {% endif %}
+    {% endif %}
+
+
+        {% if listings %}
+        <div class="row">
+          <div class="col-md-12">
+            {% if user.is_staff %}
+            <h2> Books check out recently </h2> 
+            {% else %}
+            <h2> Welcome {{ user.first_name | title }} </h2>
+            <h3> Current Borrow List </h3>
+            {% endif %}
+            <br/>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Due Date</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for listing in listings %}
+                <tr>
+                  <td>{{ listing.book.title }}</td>
+                  <td>{{ listing.due_date }}</td>
+                  {% if not user.is_staff %}
+                  <td>
+                    {% if listing.due_date|date:"Y-m-d" > now|date:"Y-m-d" %}
+                    <a class="btn btn-primary" href="{% url 'books:check_in' listing.book.id %}">Book Return</a>
+                    {% else %}
+                    <a class="btn btn-danger" href="{% url 'books:check_in' listing.book.id %}">Book Return</a>
+                    {% endif %}
+                  </td>
+                  {% endif %}
+                </tr>
+                {% endfor %}
+
+            </tbody>  
+            </table>
+          </div>
+        </div>
+        {% else %}   
+        {% if user.is_staff %}
+        <h2>No user borrow book</h2>
+        {% else %}
+        <h2>No book is borrowed</h2>
+        {% endif %}
+        {% endif %}
+
+
+
+
+</section>
+
+    <!-- Book Showcase -->
+    {% if booklists and not user.is_staff %}
+    <section class="book-showcase">
+        <h2 class="section-title">Books you may interest in</h2>
+        <div class="books">
+            {% for listing in booklists %}
+              <div class="book" data-url={% url 'books:about' listing.id %} onclick="window.location.href=this.getAttribute('data-url')">
+                {% if listing.cover_url %}
+                <div class="book-cover" style="background-image: url('{{ listing.cover_url.url }}');"></div>
+                {% else %}
+                <div class="book-cover" style="background-image: url('{% static "img/book.jpeg" %}');"></div>
+                {% endif %}
+                <div class="book-info">
+                    <div class="book-title">{{ listing.title | title }}</div>
+                    <div class="book-author">{{ listing.author | title }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+{% endblock content  %}

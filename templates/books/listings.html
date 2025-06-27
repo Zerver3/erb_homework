@@ -1,0 +1,193 @@
+{% extends "base.html" %} 
+{% block title %} List {% endblock %}
+{% block content %}
+
+<!-- Hero Section -->
+  <section id="dashboard" class="hero">
+
+        <div class="row">
+          <div class="col-md-12">
+
+
+            {% if listings %}
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>ISBN</th>
+                  <th>Language</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for listing in listings %}
+                <tr>
+                  <td>{{ listing.title }}</td>
+                  <td>{{ listing.author }}</td>
+                  <td>{{ listing.isbn }}</td>
+                  {% if listing.language in language_choices %}
+                  {%  for key, value in language_choices.items %}
+                  {% if key == listing.language %}
+                  <td>{{ value }}</td>
+                  {% endif %}
+                  {% endfor %}
+                  {% else %}
+                  <td></td>
+                  {% endif %}
+                  {% if listing.category in category_choices %}
+                  {%  for key, value in category_choices.items %}
+                  {% if key == listing.category %}
+                  <td>{{ value }}</td>
+                  {% endif %}
+                  {% endfor %}
+                  {% else %}
+                  <td>{{ listing.category | title }}</td>
+                  {% endif %}
+                  <td><a href="{% url 'books:about' listing.id %}" class="btn btn-success">Detail</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>  
+            </table>
+            {% else %}
+            <div class="col-md-12">
+              <h2>Book is NOT found</h2>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+
+
+              <form action="{% url "books:search" %}" method="GET">
+                <!-- Form Row 1 -->
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Title</label>
+                    <input
+                      type="hidden"
+                      name="title"
+                      class="form-control"
+                      placeholder="Title"
+                      value = "{{values.title}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Author</label>
+                    <input
+                      type="hidden"
+                      name="author"
+                      class="form-control"
+                      placeholder="Author"
+                      value = "{{values.author}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">ISBN</label>
+                    <input
+                      type="hidden"
+                      name="isbn"
+                      class="form-control"
+                      placeholder="ISBN"
+                      value = "{{values.isbn}}"
+                    />
+                  </div>
+
+                </div>
+                <!-- Form Row 2 -->
+                <div class="form-row">
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Category</label>
+
+                    <input
+                      type="hidden"
+                      name="category"
+                      class="form-control"
+                      placeholder=""
+                      value = "{{values.category}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Language</label>
+
+                    <input
+                      type="hidden"
+                      name="language"
+                      class="form-control"
+                      placeholder="English"
+                      value = "{{values.language}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Year</label>
+                    <input
+                      type="hidden"
+                      name="year"
+                      class="form-control"
+                      placeholder="Year"
+                      value = "{{values.year}}"
+                    />
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label class="sr-only">Year</label>
+                    <input
+                      type="hidden"
+                      name="q"
+                      class="form-control"
+                      placeholder="Year"
+                      value = "{{values.q}}"
+                    />
+                  </div>
+
+                </div>
+
+
+
+        <div class="row">
+          <div class="col-md-12">
+            {% if listings.has_other_pages %}
+            <ul class="pagination">
+              {% if listings.has_previous %}
+              <button class="page-link" type="submit" name="page" value="{{listings.previous_page_number}}">{{i}}&laquo;</button>
+            
+              {% else %}
+              <li class="page-item disabled">
+                <a class="page-link" href="#">&laquo;</a>
+              </li>
+              {% endif %}
+
+              {% for i in listings.paginator.page_range %}
+              {% if listings.number == i %}
+              <li class="page-item active">
+                <a class="page-link">{{i}}</a>              
+              </li>
+              {% else %}
+              <button class="page-link" type="submit" name="page" value="{{i}}">{{i}}</button>
+
+              {% endif %}
+              {% endfor %}
+
+              {% if listings.has_next %}
+              <button class="page-link" type="submit" name="page" value="{{listings.next_page_number}}">{{i}}&raquo;</button>
+
+              {% else %}
+              <li class="page-item disabled">
+                <a class="page-link" href="#">&raquo;</a>
+              </li>              
+              {% endif %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+              </form>
+
+    </section>
+
+{% endblock content  %}
